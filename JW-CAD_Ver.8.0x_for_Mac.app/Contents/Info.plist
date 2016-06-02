@@ -22,7 +22,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Wineskin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>JW-CAD_Ver.8.0x_for_Mac683768516Wine.wineskin.prefs</string>
+	<string>JW-CAD_Ver.8.0x_for_Mac.Wineskin.prefs</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
@@ -78,7 +78,7 @@
 	<key>WINEDEBUG=</key>
 	<string>err+all,fixme+all</string>
 	<key>force Installer to normal windows</key>
-	<true/>
+	<false/>
 	<key>force wrapper quartz-wm</key>
 	<true/>
 	<key>set max files</key>
