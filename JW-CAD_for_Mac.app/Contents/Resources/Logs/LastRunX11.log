@@ -2,38 +2,35 @@ WineskinX11: main(): argc=12
 Waiting for startup parameters via Mach IPC.
 WineskinX11: do_start_x11_server(): argc=12
 Attempting to use pixel depth of 24
-[303332.400] WineskinX11 starting:
-[303332.400] X.Org X Server 1.13.0
-[303332.400] Build Date: 20120921
-[303332.400] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
-[303332.430] Initializing built-in extension Generic Event Extension
-[303332.430] Initializing built-in extension SHAPE
-[303332.430] Initializing built-in extension MIT-SHM
-[303332.430] Initializing built-in extension XInputExtension
-[303332.430] Initializing built-in extension XTEST
-[303332.430] Initializing built-in extension BIG-REQUESTS
-[303332.430] Initializing built-in extension SYNC
-[303332.430] Initializing built-in extension XKEYBOARD
-[303332.430] Initializing built-in extension XC-MISC
-[303332.430] Initializing built-in extension XINERAMA
-[303332.430] Initializing built-in extension PseudoramiX
-[303332.430] Initializing built-in extension XFIXES
-[303332.430] Initializing built-in extension RENDER
-[303332.430] Initializing built-in extension RANDR
-[303332.430] Initializing built-in extension DAMAGE
-[303332.430] Initializing built-in extension MIT-SCREEN-SAVER
-[303332.430] Initializing built-in extension DOUBLE-BUFFER
-[303332.430] Initializing built-in extension RECORD
-[303332.430] Initializing built-in extension X-Resource
-[303332.430] Initializing built-in extension XVideo
-[303332.430] Initializing built-in extension XVideo-MotionCompensation
-[303332.430] Initializing built-in extension GLX
-[303332.431] x: 0, y: 0, w: 1680, h: 1027
-[303332.449] (II) GLX: Initialized Core OpenGL GL provider for screen 0
-[303332.622] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
-[303347.340] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
-[303347.342] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
-[303347.415] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
+[305124.488] WineskinX11 starting:
+[305124.488] X.Org X Server 1.13.0
+[305124.488] Build Date: 20120921
+[305124.488] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+[305124.491] Initializing built-in extension Generic Event Extension
+[305124.491] Initializing built-in extension SHAPE
+[305124.491] Initializing built-in extension MIT-SHM
+[305124.491] Initializing built-in extension XInputExtension
+[305124.491] Initializing built-in extension XTEST
+[305124.491] Initializing built-in extension BIG-REQUESTS
+[305124.491] Initializing built-in extension SYNC
+[305124.491] Initializing built-in extension XKEYBOARD
+[305124.491] Initializing built-in extension XC-MISC
+[305124.491] Initializing built-in extension XINERAMA
+[305124.491] Initializing built-in extension PseudoramiX
+[305124.491] Initializing built-in extension XFIXES
+[305124.491] Initializing built-in extension RENDER
+[305124.491] Initializing built-in extension RANDR
+[305124.491] Initializing built-in extension DAMAGE
+[305124.491] Initializing built-in extension MIT-SCREEN-SAVER
+[305124.491] Initializing built-in extension DOUBLE-BUFFER
+[305124.491] Initializing built-in extension RECORD
+[305124.491] Initializing built-in extension X-Resource
+[305124.491] Initializing built-in extension XVideo
+[305124.491] Initializing built-in extension XVideo-MotionCompensation
+[305124.491] Initializing built-in extension GLX
+[305124.492] x: 0, y: 0, w: 1680, h: 1027
+[305124.511] (II) GLX: Initialized Core OpenGL GL provider for screen 0
+[305124.685] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
 Engine Used: WS9Wine1.9.11
 Hardware:
 

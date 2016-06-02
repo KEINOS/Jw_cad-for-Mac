@@ -254,17 +254,21 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Protected Storage System Provider] 1464887186
 #time=1d1bcf119649476
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1464887195
-#time=1d1bcf11e6360e2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit] 1464889082
+#time=1d1bcf5832a7804
+"LastKey"="HKEY_CURRENT_USER\\Software\\Wine\\Drivers"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1464888974
+#time=1d1bcf542e14a52
 "Administrative Tools"="C:\\users\\admin\\Start Menu\\Programs\\Administrative Tools"
-"AppData"="C:\\users\\Wineskin\\Application Data"
+"AppData"="C:\\users\\admin\\Application Data"
 "Cache"="C:\\users\\Wineskin\\Local Settings\\Temporary Internet Files"
 "Cookies"="C:\\users\\Wineskin\\Cookies"
 "Desktop"="C:\\users\\admin\\Desktop"
 "Favorites"="C:\\users\\Wineskin\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
 "History"="C:\\users\\Wineskin\\Local Settings\\History"
-"Local AppData"="C:\\users\\Wineskin\\Local Settings\\Application Data"
+"Local AppData"="C:\\users\\admin\\Local Settings\\Application Data"
 "My Music"="C:\\users\\Wineskin\\My Music"
 "My Pictures"="C:\\users\\Wineskin\\My Pictures"
 "My Videos"="C:\\users\\Wineskin\\My Videos"
@@ -572,10 +576,10 @@ WINE REGISTRY Version 2
 [Software\\Wine\\Direct3D] 1464887195
 #time=1d1bcf11e49b890
 
-[Software\\Wine\\Drivers] 1464887195
-#time=1d1bcf11e49bb9c
+[Software\\Wine\\Drivers] 1464888991
+#time=1d1bcf54cc1d456
 "Audio"="coreaudio"
-"Graphics"="x11"
+"Graphics"="mac"
 
 [Software\\Wine\\FileOpenAssociations\\.chm] 1464887195
 #time=1d1bcf11e6d7104
@@ -696,13 +700,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1464887195
-#time=1d1bcf11e3464d6
+[Software\\Wine\\Fonts] 1464888974
+#time=1d1bcf542cb21be
 "Codepages"="932,932"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1464887195
-#time=1d1bcf11e37d99a
+[Software\\Wine\\Fonts\\External Fonts] 1464888974
+#time=1d1bcf542ce7b48
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -1024,7 +1028,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\private\\tmp\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"

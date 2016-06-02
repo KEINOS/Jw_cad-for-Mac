@@ -27690,8 +27690,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1464887195
-#time=1d1bcf11e37d936
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1464888974
+#time=1d1bcf542ce7ada
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -28014,7 +28014,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\private\\tmp\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -32209,8 +32209,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1464887186
 #time=1d1bcf11963a660
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1464887195
-#time=1d1bcf11e37d8c8
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1464888974
+#time=1d1bcf542ce7a62
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -32533,7 +32533,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\private\\tmp\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
