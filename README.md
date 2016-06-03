@@ -1,11 +1,24 @@
 # JW-CAD for Mac
----
+===
 ### Ver.2016.06.01
-"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも使えるようにしたフリーウェア・ソフトです。
-## 概要
-DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIX、とりわけMacのOSXでも使えるように[Wine]と[Jw_cad]（Ver.7.11）を[Wineskin Winery]を使って1つのアプリとしてラッピングしたものです。
 
-なお、内包されているJwwは、Ver.7.11をプログラムの改変なく、設定も そのままの状態（インストール直後の状態）なので、各種設定やカスタムはご自身で行っていただく必要があります。
+　"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも使えるように工夫したフリーウェア・ソフトです。
+
+---
+
+■JW-CAD for Mac 公式サイト : [http://keinos.github.io/Jw_cad-for-Mac](http://keinos.github.io/Jw_cad-for-Mac/)
+
+■JW-CAD for Mac 情報交換 : [https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac](https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac) 
+
+■本家 Jw_cad : [http://www.jwcad.net/](http://www.jwcad.net/)
+
+## 概要
+　DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIX、とりわけMacのOSXでも使えるように[Wine]と[Jw_cad]を[Wineskin Winery]を使って1つのアプリとしてラッピングしたものです。
+
+　ダウンロードすると、Jwwの安定バージョン(Ver.7.11)と最新バージョン(Ver.8系)の２つが同梱されています。
+
+　なお、内包されているJwwは、本体プログラムの改変なく、設定も そのままの状態（インストール直後の状態）なので、各種設定やカスタムはご自身で行っていただく必要があります。
+
 
 ## 主な対象者
   - Macで使える無料の2D CADを試したい人
@@ -21,8 +34,18 @@ DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、
   - OS X 10.10 Yosemite
   - OS X 10.11 El Capitan
 
+## サポート(情報共有・FAQ・Q＆Aなど）
+　有志によるアプリであるため特別なサポートはありませんが、掲示板を用意しましたので、ユーザー間でサポートしあえれば嬉しいです。
+
+また、「こんな環境で動作したよ」といった情報なども掲示板で共有してください。
+
+* [JW-CAD for Mac 掲示板](https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac) 
+
+**【注意】　"JW-CAD for Mac"やMac OSXに依存する質問（インストールの仕方や文字化け）などは、本家の方に質問されないようにしてください。**
+
+
 ## 内包アプリのバージョン
-  - Jw_cad : 7.11
+  - Jw_cad : 7.11, 8.01a
   - Wine : 1.9.11
   - Wineskin : 2.6.2
 
@@ -31,14 +54,16 @@ DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、
 ### OS
   - OS X 10.11.5 El Capitan @ MacBook Pro, Retina 13-inch, Early 2015
 
+  * ※Ver.8.0x系の最新版に関しては、私自身があまり使っていないこともあり十分な動作確認がされていません。情報いただけるとありがたいです。
+
 ### プリンタ
   - [VipRiser Ver.2.0][VipRiser] (PDF 仮装プリンタ@OSX 10.11）
 
 ## 簡易インストール手順
 
-1. "JW-CAD_for_Mac.7z.001"と"JW-CAD_for_Mac.7z.002"の2つのファイルをダウンロードします。
-2. 7z形式で分割圧縮されているので ["The Unarchiver"][Unarchiver] などで解凍します。
-2. 解凍された"JW-CAD_for_Mac"アプリをアプリケーションフォルダなどに移動します。Jwwアプリ内から"C:"ドライブにデータを保存するとアプリ内に保存されるため、ユーザーフォルダ内の方のアプリケーションフォルダに設置するのが望ましいです。
+1. "JW-CAD_for_Mac"の公式サイトにある"Download .zip"よりファイルをダウンロードし、解凍します。
+2. 解凍されると"JW-CAD_Ver.x.x_for_Mac"とJw_cadのバージョンにあわせたアプリが出来るので、利用したい方をアプリケーションフォルダなどに移動します。
+3. Jwwアプリ内から"C:"ドライブにデータを保存するとアプリ内に保存されるため、ユーザーフォルダ内の方のアプリケーションフォルダに設置するのが望ましいです。
 3. 設置したアプリを、右クリック（control+クリック）して「開く」を選択し、警告画面でも「開く」を選ぶとアプリが起動します。
 4. アプリのショートカットをドックなどに登録するなど、呼び出しやすいようにしてください。
 
@@ -50,7 +75,9 @@ DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、
   - 画面上の文字化け - MSゴシック・MS明朝・メイリオ以外のフォントを使った場合、フォントによって（特にMac独特のフォントの場合）文字バケることがります。
 
 ## アプリの使い方
-アプリ自体はWindows版Jw_cadそのものなので、たくさん出ているJw_cad本、ネットやフォーラムなどを参考にしてください。
+　アプリ自体はWindows版Jw_cadそのものなので、たくさん出ているJw_cad本、ネットやフォーラムなどを参考にしてください。
+
+　JW-CAD for MacおよびMacに特有の不具合や質問は、__本家の方には問い合わせない__ようにお願いいたします。
 
 ### 操作の参考リンク
 
@@ -77,6 +104,12 @@ DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、
 
 - 著作者: Doh123 & the Wineskin Project
 - 公式サイト: http://wineskin.urgesoftware.com/
+- ライセンス: GNU LGPL v2.1
+
+### JW-CAD for Mac
+
+- 著作者: KEINOS & JW-CAD for Mac Project
+- 公式サイト: http://keinos.github.io/Jw_cad-for-Mac
 - ライセンス: GNU LGPL v2.1
 
 ## 免責事項
