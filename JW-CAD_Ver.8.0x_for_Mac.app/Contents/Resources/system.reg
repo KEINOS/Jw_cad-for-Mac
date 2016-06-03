@@ -119,6 +119,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd2191be0
 @="JSFile"
 
+[Software\\Classes\\.JWW] 1464930181
+#time=1d1bd5533e8f51c
+@="Jwwin.Document"
+
 [Software\\Classes\\.lnk] 1464891795
 #time=1d1bcfbd47a1c86
 @="lnkfile"
@@ -21712,6 +21716,26 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd20547b4
 @="JScript"
 
+[Software\\Classes\\Jwwin.Document] 1464930181
+#time=1d1bd5533e91132
+@="Jw_win Document"
+
+[Software\\Classes\\Jwwin.Document\\DefaultIcon] 1464930181
+#time=1d1bd5533e9177c
+@="C:\\JWW\\Jw_win.exe,1"
+
+[Software\\Classes\\Jwwin.Document\\shell] 1464930181
+#time=1d1bd5533e924d8
+@=""
+
+[Software\\Classes\\Jwwin.Document\\shell\\open] 1464930181
+#time=1d1bd5533e9336a
+@=""
+
+[Software\\Classes\\Jwwin.Document\\shell\\open\\command] 1464930181
+#time=1d1bd5533e8cf24
+@="C:\\JWW\\Jw_win.exe \"%1\" \"%2\" \"%3\" \"%4\" \"%5\""
+
 [Software\\Classes\\LiveScript] 1464891791
 #time=1d1bcfbd20530a8
 @="JScript Language"
@@ -27690,8 +27714,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1464900133
-#time=1d1bd0f3dd61776
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1464930164
+#time=1d1bd552a0e4a38
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -28242,6 +28266,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd4477f74
 "0A860BE35B24CB647A51DF673503D84C"=""
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UpgradeCodes\\B9BEEE819DF5D1B44B8077276C3CE70B] 1464930181
+#time=1d1bd5533ed80dc
+"931F5F8B1BD1C4E44AA481B9B60AC66C"=""
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\1F3B805BA42A0C233B0158879691FE82\\InstallProperties] 1464891794
 #time=1d1bcfbd38f9904
 "WindowsInstaller"=dword:00000001
@@ -28261,6 +28289,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\025347E0CE126D340975866C1F8D3B41] 1464891792
 #time=1d1bcfbd29821a6
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Numerics.Vectors\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\02DE1F6DF5718D944B7BB865B35A88E0] 1464930180
+#time=1d1bd553396faa0
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\glui32dll.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\032C302BD395C7C4DBA635FC08BEDF9D] 1464891792
 #time=1d1bcfbd2965682
@@ -28289,6 +28321,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\07162BB3699A2964E880B5AA9BA22040] 1464891792
 #time=1d1bcfbd297e4fc
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Runtime.Caching\\4.0.0.0__b03f5f7f11d50a3a\\System.Runtime.Caching.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\0760744E6C54DE347821A6D00387AFD4] 1464930180
+#time=1d1bd553396f064
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\common_lib.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\07989FE8CE114F64A985C651618DA3F3] 1464891792
 #time=1d1bcfbd296bd52
@@ -28334,6 +28370,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd297e808
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.CodeContracts\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\10E4522E7737D2A4BB04633811D1999E] 1464930180
+#time=1d1bd553396baea
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6202\x300b\x5efa\x7bc9\xff12\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\12A57C99FF38C3F428FA75CB050DF143] 1464891792
 #time=1d1bcfbd2973462
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.CompilerServices.SymbolWriter\\4.0.0.0__0738eb9f132ed756\\Mono.CompilerServices.SymbolWriter.dll"
@@ -28341,6 +28381,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\13037A23CFDBFC844BB4479ECA9056C3] 1464891792
 #time=1d1bcfbd29bafba
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\3.5\\Microsoft.Build.Engine.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\136F9B1288E94B441B6440D254549C0B] 1464930180
+#time=1d1bd553396bfb8
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6202\x300b\x5efa\x7bc9\xff12\\\x300a\x56f3\x5f62\x300b\x6728\x9020\x5e73\x9762(900)\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\13E4CD56E82692A48A1F23A7B2FD3CD8] 1464891792
 #time=1d1bcfbd296de04
@@ -28426,6 +28470,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd29ae68e
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Reactive.Providers\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\203AEA35DD23E0A4EB422B3C3DBDB3B7] 1464930180
+#time=1d1bd553396c36e
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6202\x300b\x5efa\x7bc9\xff12\\\x300a\x56f3\x5f62\x300b\x6728\x9020\x5e73\x9762(909)\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\20DC6EC086C593343B4539E90DA947A6] 1464891792
 #time=1d1bcfbd29b32c4
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\xbuild\\12.0\\bin\\MSBuild\\Microsoft.Build.CommonTypes.xsd"
@@ -28437,6 +28485,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\221D880E69607314CBE49C9903B3B42E] 1464891792
 #time=1d1bcfbd295da0e
 "0298D54E857A88046B6C13BD2B6799E2"="02:\\Software\\Microsoft\\.NETFramework\\InstallRoot"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\225CD346B8C47E7478B439EF086306C7] 1464930180
+#time=1d1bd55339692c2
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\License\\glui-2.36\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\239F857D13997CD47B139BA87D087A51] 1464891792
 #time=1d1bcfbd298dc04
@@ -28514,9 +28566,17 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd3d7d34a
 "0A860BE35B24CB647A51DF673503D84C"="C:\\windows\\system32\\gecko\\2.44\\wine_gecko\\gmp-clearkey\\0.1\\clearkey.dll"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\2B89B6A634354CB40A2EC9C0E24B4138] 1464930180
+#time=1d1bd553396852a
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\License\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\2D2D29E13D9DDFF48884AAF2822A93D1] 1464891792
 #time=1d1bcfbd29b3f3a
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\xbuild\\14.0\\bin\\MSBuild\\Microsoft.Build.CommonTypes.xsd"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\2DD7CB900B554C04AB7A66A6BA9E131A] 1464930180
+#time=1d1bd553396ad84
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6201\x300b\x5efa\x7bc9\xff11\\\x300a\x56f3\x5f62\x300b\x8eca\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\2DE6C1D77C76A8945B509483754D79D2] 1464891792
 #time=1d1bcfbd2991aca
@@ -28533,6 +28593,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3058586D4998B1A4AA6E0AFAEC81A4D2] 1464891792
 #time=1d1bcfbd29a9012
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\nunit.framework.extensions\\2.4.8.0__96d09a1eb7f44a77\\nunit.framework.extensions.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\324E01025AD602D4994B5E566253E74F] 1464930180
+#time=1d1bd553396a5f0
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6212\x300b\x96fb\x6c17\xff12\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3375516F213E3A441B7CA8EA0B7DFB52] 1464891792
 #time=1d1bcfbd298a068
@@ -28582,9 +28646,17 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd297376e
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Microsoft.Build.Tasks.Core\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3A33A8F2BC8D54649BEC2DD834EE85D9] 1464930180
+#time=1d1bd553396b716
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6201\x300b\x5efa\x7bc9\xff11\\\x300a\x56f3\x5f62\x300b\xff12\xff0e\xff15\xff24\x7528\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3AB1A22249E852F499BFFFFE7542FB94] 1464891792
 #time=1d1bcfbd29aefbc
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\lldb\\mono.py"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3BF0BA63A3969FE4FA39E5EBA4E1B912] 1464930180
+#time=1d1bd5533969aba
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6206\x300b\x8a2d\x5099\xff11\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3C094F6D00389174D93CB06F455F421B] 1464891792
 #time=1d1bcfbd29794de
@@ -28593,6 +28665,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3DFF7E009E9334A4C9F94B42FDE5FF00] 1464891792
 #time=1d1bcfbd29b2d2e
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\xbuild\\12.0\\bin\\Microsoft.Build.xsd"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3DFF8CBADA58C47429B63F4DE4D44DF0] 1464930180
+#time=1d1bd55339696f0
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6201\x300b\x5efa\x7bc9\xff11\\\x300a\x56f3\x5f62\x300b\x4eba\x7269\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\3E4F269A57DF36E4A934DCDB0DBF9252] 1464891792
 #time=1d1bcfbd2978d54
@@ -28621,6 +28697,14 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\41C8A1905EF73714F9FEBA468421BFF4] 1464891792
 #time=1d1bcfbd299a18e
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Json\\4.0.0.0__31bf3856ad364e35\\System.Json.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\43E6B445162E0E1468EF2B0331CB3742] 1464930180
+#time=1d1bd553396a9ba
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6201\x300b\x5efa\x7bc9\xff11\\\x300a\x56f3\x5f62\x300b\x6a39\x6728\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\4441AC4EF4DB6C14C81A2A59022F7058] 1464930180
+#time=1d1bd553396ffe6
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\glut32.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\447A8276070EDCC42B91987383221487] 1464891792
 #time=1d1bcfbd29644bc
@@ -28833,6 +28917,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\65682B157FBB0324FB57BC400FD120C2] 1464891792
 #time=1d1bcfbd29a44b8
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.Posix\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\65905941578DA784E8015BA2E01272B1] 1464930180
+#time=1d1bd5533969e7a
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6207\x300b\x8a2d\x5099\xff12\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\681CDD5A08047974AA42E2A7672043C7] 1464891792
 #time=1d1bcfbd29af930
@@ -29122,6 +29210,18 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd2972eb8
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.CompilerServices.SymbolWriter\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\932EA6002DFAE2F4AA312A4410A5913A] 1464930180
+#time=1d1bd553396e4f2
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\TENHYOU.EXE"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\93A44E0B5914E1F4E8587ED518C61CE8] 1464930180
+#time=1d1bd5533967d8c
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\9461B9E10C0DB1048BB0355F4C7C0038] 1464930180
+#time=1d1bd553396a230
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6211\x300b\x96fb\x6c17\xff11\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\9558D5A7CC9D07C49B54AD6613EBE454] 1464891792
 #time=1d1bcfbd29697b4
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.Cecil\\0.9.5.0__0738eb9f132ed756\\Mono.Cecil.dll"
@@ -29157,6 +29257,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\9AACE90634A418A42BBDC1AED58FFBDC] 1464891792
 #time=1d1bcfbd297abb8
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\nunit.mocks\\2.4.8.0__96d09a1eb7f44a77\\nunit.mocks.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\9B75A929869E9BF4993E3797669FF8A6] 1464930180
+#time=1d1bd553396d34a
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\Jw_cad.chm"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\9CC3C54B6451E04409A5CEB92724D5F3] 1464891792
 #time=1d1bcfbd29b360c
@@ -29265,6 +29369,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\A83B46AB5D9A2544B9DAF96F95273EA2] 1464891792
 #time=1d1bcfbd298f34c
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Mono.Debugger.Soft\\4.0.0.0__0738eb9f132ed756\\Mono.Debugger.Soft.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\A86D45DE279127A4DB0B62B6BF21B3A7] 1464930180
+#time=1d1bd553396ea4c
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\ZAHYOU.EXE"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\A86D749D2062D4341AC8B26B0D2388DE] 1464891792
 #time=1d1bcfbd2975064
@@ -29422,6 +29530,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd299ec70
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Drawing\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\BFDA1DE960371B64BB2261830F6E9BB8] 1464930180
+#time=1d1bd553396c72e
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x5909\x66f4\x5efa\x5177\x30c7\x30fc\x30bf\\"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\C0E71C3AD98DEFF4D940CAACEBB254D9] 1464891792
 #time=1d1bcfbd2988650
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Core\\4.0.0.0__b77a5c561934e089\\System.Core.dll"
@@ -29477,6 +29589,14 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\C687C399D8B937A478C2DD72D06BA712] 1464891792
 #time=1d1bcfbd299639a
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Accessibility\\4.0.0.0__b03f5f7f11d50a3a\\Accessibility.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\C6A9B50C3DBE42D49A3A51C4DC136BE7] 1464930180
+#time=1d1bd553396ccb0
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\JWW_SMPL.EXE"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\C83F2FC3DEC6A1B4DA7B72EF82D47BD5] 1464930180
+#time=1d1bd5533970b08
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\view_speed.exe"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\C902DDA42670D764298C1043BA9C1D54] 1464891792
 #time=1d1bcfbd29a6808
@@ -29586,6 +29706,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd297f528
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\nunit.framework\\2.4.8.0__96d09a1eb7f44a77\\nunit.framework.dll"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\DC92F58F814F48B458BAB370AE1913E7] 1464930180
+#time=1d1bd553396d872
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\Jw_win.exe"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\DC9ED9CEF6947AE42BE2BAD383F50129] 1464891792
 #time=1d1bcfbd29bce5a
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\etc\\mono\\browscap.ini"
@@ -29621,6 +29745,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E04470414C4B64449A0698DF3C72D99C] 1464891792
 #time=1d1bcfbd2994702
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\Novell.Directory.Ldap\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E092624FD8041A74488E57A54473FCD3] 1464930180
+#time=1d1bd5533970630
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\install.exe"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E10A6693F0CA2BC47BA0701C2592825C] 1464891792
 #time=1d1bcfbd29b1c12
@@ -29685,6 +29813,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E8638FEB2E03B7D44B6F1AB579E721D3] 1464891792
 #time=1d1bcfbd29b8242
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\xbuild-frameworks\\.NETFramework\\v4.0\\RedistList\\FrameworkList.xml"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E870D606CABC779448EBB3C14EAE02F3] 1464930180
+#time=1d1bd553396816a
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\\x300a\x56f3\x5f6201\x300b\x5efa\x7bc9\xff11\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\E9C0C7786915CF34BAC66EBE3CEEB907] 1464891792
 #time=1d1bcfbd2971fa4
@@ -29754,6 +29886,10 @@ WINE REGISTRY Version 2
 #time=1d1bcfbd29a72d0
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\SMDiagnostics\\"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\F13B56CDA3DB04B4AB6F33005E40D2BD] 1464930180
+#time=1d1bd553396f58c
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\common_lib_AP202.dll"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\F15A708107E70D5428E9E4F73B6C8642] 1464891792
 #time=1d1bcfbd2967c20
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.Management\\"
@@ -29821,6 +29957,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\FAAF68CE7516BC84383E983399C443B9] 1464891792
 #time=1d1bcfbd2993366
 "0298D54E857A88046B6C13BD2B6799E2"="C:\\windows\\mono\\mono-2.0\\lib\\mono\\gac\\System.IdentityModel.Selectors\\4.0.0.0__b77a5c561934e089\\System.IdentityModel.Selectors.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\FBCD3BDA457063A458CDC7D6A95F082C] 1464930180
+#time=1d1bd5533968912
+"931F5F8B1BD1C4E44AA481B9B60AC66C"="C:\\JWW\\License\\FreeImage\\"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Components\\FD12F7390770AAC41A10F0B12A1C822A] 1464891792
 #time=1d1bcfbd299cbe6
@@ -29898,6 +30038,37 @@ WINE REGISTRY Version 2
 "Version"=dword:022c0000
 "VersionMajor"=dword:00000002
 "VersionMinor"=dword:0000002c
+"WindowsInstaller"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\Features] 1464930181
+#time=1d1bd5533ee2e42
+"AlwaysInstall"="AKQqamnKLA'xF3FgVwsU219~FbG(]?ntA),W=[@8I6@5JzirE@TDX''Mc}-R}nFo`YwFq?u.*4KQC^Sg]uP6H*YC,?4!fnzgrm{OqD}5`D_mv=DPYMmRCM*(xGPX5j[QHA.%c3fMU)m-,~?])5x(A?Qpef1Dlkf+Ax,p,k*H[81=~pw4{q+Ra[!B-SB$l@mAfhHLa?Ywk,p*C5if297dJ`36]oe.=e}-&.cFn8[Ii4J7nam[dXg?3X}jY=g-OYUPBWXZ%E'cq1-Np?.!X2R*W_)t&BGp-HWz)=QWmO2(D[na{s+uB7_,m?'X4ug5!][OBdi&[D$=f=Tf6%6E!2vTK=!ofY(Rl@'EVN@]~]fPgP%-W)g%^A9%z%O(429JxQ8oxZx+?@F~ZC%T~OWPYSJ.!!r2NAxF}'=@8cK]wa^?uqmjw?!A9MJAk5@OvK@GrfDco95UOB'o+@(A9n!poV3o3@cEV(!qX_MoT.(*nlpDg?wNDnCJz&b'+3?Ur9[x.95}r*Xs2=iR{!tOw05q$?f'@)E[(Xr7(,(Z79`g.@_48cz^U6-F"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-21-0-0-0-1000\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\InstallProperties] 1464930181
+#time=1d1bd5533ed8230
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayName"="Jw_cad"
+"DisplayVersion"="8.01.2"
+"EstimatedSize"=dword:00000000
+"HelpLink"="http://www.jwcad.net"
+"HelpTelephone"=""
+"InstallDate"="20160603"
+"InstallLocation"="C:\\JWW\\"
+"InstallSource"="C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+"Language"=dword:00000411
+"LocalPackage"="C:\\windows\\Installer\\ba87.msi"
+"ModifyPath"=str(2):"MsiExec.exe /I{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}"
+"Publisher"="Jiro Shimizu & Yoshifumi Tanaka"
+"ReadMe"="J:\\Setup5\\Jw_win.rtf"
+"Size"=""
+"UninstallString"=str(2):"MsiExec.exe /I{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}"
+"URLInfoAbout"="http://www.JiroShimizu&YoshifumiTanaka.com"
+"URLUpdateInfo"="http://www.jwcad.net"
+"Version"=dword:08010002
+"VersionMajor"=dword:00000008
+"VersionMinor"=dword:00000001
 "WindowsInstaller"=dword:00000001
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\User Agent\\Post Platform] 1464891794
@@ -32135,6 +32306,32 @@ WINE REGISTRY Version 2
 "VersionMinor"=dword:0000002c
 "WindowsInstaller"=dword:00000001
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}] 1464930181
+#time=1d1bd5533ed225e
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayName"="Jw_cad"
+"DisplayVersion"="8.01.2"
+"EstimatedSize"=dword:00000000
+"HelpLink"="http://www.jwcad.net"
+"HelpTelephone"=""
+"InstallDate"="20160603"
+"InstallLocation"="C:\\JWW\\"
+"InstallSource"="C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+"Language"=dword:00000411
+"ModifyPath"=str(2):"MsiExec.exe /I{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}"
+"Publisher"="Jiro Shimizu & Yoshifumi Tanaka"
+"ReadMe"="J:\\Setup5\\Jw_win.rtf"
+"Size"=""
+"UninstallString"=str(2):"MsiExec.exe /I{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}"
+"URLInfoAbout"="http://www.JiroShimizu&YoshifumiTanaka.com"
+"URLUpdateInfo"="http://www.jwcad.net"
+"Version"=dword:08010002
+"VersionMajor"=dword:00000008
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{E45D8920-A758-4088-B6C6-31DBB276992E}] 1464891794
 #time=1d1bcfbd391348a
 "AuthorizedCDFPrefix"=""
@@ -32209,8 +32406,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1464891795
 #time=1d1bcfbd47ca794
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1464900133
-#time=1d1bd0f3dd616fe
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1464930164
+#time=1d1bd552a0e49c0
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
