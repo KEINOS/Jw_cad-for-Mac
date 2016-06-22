@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>JW-CAD for Mac by KEINOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/github-light.css" media="screen">
+  </head>
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">JW-CAD for Mac</h1>
+      <h2 class="project-tagline">Mac OSX10.xで動作するJw_cad (JWW, Jw_win)</h2>
+      <a href="https://github.com/KEINOS/Jw_cad-for-Mac" class="btn">View on GitHub</a>
+      <a href="https://github.com/KEINOS/Jw_cad-for-Mac/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/KEINOS/Jw_cad-for-Mac/tarball/master" class="btn">Download .tar.gz</a>
+			<div style="width:50%; margin:0 auto;" id="idSocialButton">
+				<div class="ninja_onebutton">
+			      <script type="text/javascript">
+				      //<![CDATA[
+				      (function(d){
+					      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_e2aef6f1b469ac17ed853c3386d4904e)=='undefined'){
+						      document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/e2aef6f1b469ac17ed853c3386d4904e'><\/sc"+"ript>");
+					      }else{
+						      window.NINJA_CO_JP_ONETAG_BUTTON_e2aef6f1b469ac17ed853c3386d4904e.ONETAGButton_Load();
+					      }
+				      })(document);
+				      //]]>
+			      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+			    </div>
+			</div><!-- /idSocialButton -->
+
+    </section>
+
+    <section class="main-content">
+
+<h1><a id="jw-cad-for-mac" class="anchor" href="#jw-cad-for-mac" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JW-CAD for Mac</h1>
+
+<h3><a id="ver20160601" class="anchor" href="#ver20160601" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ver.2016.06.22</h3>
+
+<p>　"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも動作するように工夫した有志によるフリーウェア・ソフトです。</p>
+
+<hr>
+
+<p>■JW-CAD for Mac 公式サイト : <a href="https://keinos.github.io/Jw_cad-for-Mac/">https://keinos.github.io/Jw_cad-for-Mac</a></p>
+
+<p>■JW-CAD for Mac 情報交換 : <a href="https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac">https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac</a> </p>
+
+<p>■本家 Jw_cad : <a href="http://www.jwcad.net/">http://www.jwcad.net/</a></p>
+
+<h2><a id="概要" class="anchor" href="#%E6%A6%82%E8%A6%81" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>概要</h2>
+
+<p>　DOSの時代からある日本の老舗CADソフト"<a href="http://www.jwcad.net/">Jw_cad</a>"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIXとりわけMacのOSXでも使えるように<a href="http://ja.wikipedia.org/wiki/Wine">Wine</a>と<a href="http://www.jwcad.net/">Jw_cad</a>を<a href="http://wineskin.urgesoftware.com/">Wineskin Winery</a>でラッピングして、1つのアプリのようにしたものです。</p>
+
+<p>　ダウンロードすると、Jwwの安定バージョン(Ver.7.11)と最新バージョン(Ver.8系)の２つが同梱されています。</p>
+
+<p>　なお、内包されているJwwは、本体プログラムの改変なく、設定も そのままの状態（インストール直後の状態）なので、各種設定やカスタムはご自身で行っていただく必要があります。</p>
+
+<h2>
+<a id="主な対象者" class="anchor" href="#%E4%B8%BB%E3%81%AA%E5%AF%BE%E8%B1%A1%E8%80%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>主な対象者</h2>
+
+<ul>
+	<li>Macで使える無料の2D CADを試したい人</li>
+	<li>JwwのためだけにBootcamp、VMWare, Parallels, Virtual Boxなどを利用するのに躊躇している人</li>
+	<li>AutoCADやVectorworksといった海外製CADでなく、日本製が使いたい！という人</li>
+	<li>Macを買ったがJwwに愛がある人</li>
+</ul>
+
+<h2>
+<a id="対応os" class="anchor" href="#%E5%AF%BE%E5%BF%9Cos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>対応OS</h2>
+
+<ul>
+	<li>OS X 10.6 Snow Leopard</li>
+	<li>OS X 10.7 Lion</li>
+	<li>OS X 10.8 Mountain Lion</li>
+	<li>OS X 10.9 Mavericks</li>
+	<li>OS X 10.10 Yosemite</li>
+	<li>OS X 10.11 El Capitan</li>
+</ul>
+
+<h2><a id="サポート情報共有faqqaなど" class="anchor" href="#%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E6%83%85%E5%A0%B1%E5%85%B1%E6%9C%89faqqa%E3%81%AA%E3%81%A9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>サポート(情報共有・FAQ・Q＆Aなど）</h2>
+
+<p>　有志によるアプリであるため特別なサポートはありませんが、掲示板を用意しましたので、ユーザー間でサポートしあえれば嬉しいです。</p>
+
+<p>また、「こんな環境で動作したよ」といった情報なども掲示板で共有してください。</p>
+
+<p><strong>【注意】　"JW-CAD for Mac"やMac OSXに依存する質問（インストールの仕方や文字化け）などは、本家の方に質問されないようにしてください。</strong></p>
+
+<ul>
+	<li><a href="https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac">JW-CAD for Mac 掲示板</a> </li>
+</ul>
+
+<div style="wdith:100%; padding:0; margin:0; border:1px solid gray;">
+	<iframe id="forum_embed" src="javascript:void(0)" scrolling="no" frameborder="0" width="900" height="700"></iframe>
+	<script type="text/javascript">
+		document.getElementById("forum_embed").src =
+			"https://groups.google.com/forum/embed/?place=forum/jw-cad_for_mac" + 
+			"&showsearch=true" +
+			"&domian=keinos.github.io" +
+			"&hideforumtitle=true" +
+			"&showpopout=true" +
+			"&parenturl=" + encodeURIComponent(window.location.href);
+	</script>
+</div>
+
+<h2><a id="内包アプリのバージョン" class="anchor" href="#%E5%86%85%E5%8C%85%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>内包アプリのバージョン</h2>
+
+<ul>
+	<li>Jw_cad : 7.11, 8.01a</li>
+	<li>Wine : 1.9.11</li>
+	<li>Wineskin : 2.6.2</li>
+</ul>
+
+<h2><a id="動作確認済み環境" class="anchor" href="#%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88%E3%81%BF%E7%92%B0%E5%A2%83" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>動作確認済み環境</h2>
+
+<h3><a id="os" class="anchor" href="#os" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OS</h3>
+
+<ul>
+	<li><p>OS X 10.11.5 El Capitan @ MacBook Pro, Retina 13-inch, Early 2015</p></li>
+	<li><p>※Ver.8.0x系の最新版に関しては、私自身があまり使っていないこともあり十分な動作確認がされていません。情報いただけるとありがたいです。</p></li>
+</ul>
+
+<h3><a id="プリンタ" class="anchor" href="#%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>プリンタ</h3>
+
+<ul>
+	<li><a href="https://onflapp.wordpress.com/vipriser/">VipRiser Ver.2.0</a> (PDF 仮装プリンタ<a href="https://github.com/OSX" class="user-mention">@OSX</a> 10.11）</li>
+</ul>
+
+<h2><a id="簡易インストール手順" class="anchor" href="#%E7%B0%A1%E6%98%93%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>簡易インストール手順</h2>
+	
+<ol>
+	<li>"JW-CAD_for_Mac"の公式サイトにある"Download .zip"よりファイルをダウンロードし、解凍します。</li>
+	<li>解凍されると"JW-CAD_Ver.x.x_for_Mac"とJw_cadのバージョンにあわせたアプリが出来るので、利用したい方をアプリケーションフォルダなどに移動します。</li>
+	<li>Jwwアプリ内から"C:"ドライブにデータを保存するとアプリ内に保存されるため、ユーザーフォルダ内の方のアプリケーションフォルダに設置するのが望ましいです。</li>
+	<li>設置したアプリを、右クリック（control+クリック）して「開く」を選択し、警告画面でも「開く」を選ぶとアプリが起動します。</li>
+	<li>アプリのショートカットをドックなどに登録するなど、呼び出しやすいようにしてください。</li>
+</ol>
+
+<h2><a id="windows環境との違いと注意事項" class="anchor" href="#windows%E7%92%B0%E5%A2%83%E3%81%A8%E3%81%AE%E9%81%95%E3%81%84%E3%81%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows環境との違いと注意事項</h2>
+
+<ul>
+	<li>データの保存先 - Jwwアプリ内の"C:"ドライブはアプリ内に保存され、"Z:"ドライブはMacのインストールされているドライブが割り当てられます。</li>
+	<li>プリンタ名の文字化け - 印刷はMac（OSX）にインストールされているプリンタ・ドライバーが利用できますが、プリンタ名が日本語だとプリンタ名が文字化ける事があります。</li>
+	<li>データを渡した先での文字化け - Windowsの文字コードが基本的にSJIS-Win(CP932)であることに対し、OSXはUTF-16です。囲み文字、組文字、特殊文字などは一見Windowsのそれと同じに見えても異なる事があり、文字化けることがあります。</li>
+	<li>画面上の文字化け - MSゴシック・MS明朝・メイリオ以外のフォントを使った場合、フォントによって（特にMac独特のフォントの場合）文字バケることがります。</li>
+</ul>
+
+<h2><a id="アプリの使い方" class="anchor" href="#%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>アプリの使い方</h2>
+
+<p>　アプリ自体はWindows版Jw_cadそのものなので、たくさん出ているJw_cad本、ネットやフォーラムなどを参考にしてください。</p>
+
+<p>　JW-CAD for MacおよびMacに特有の不具合や質問は、<strong>本家の方には問い合わせない</strong>ようにお願いいたします。</p>
+
+<h3><a id="操作の参考リンク" class="anchor" href="#%E6%93%8D%E4%BD%9C%E3%81%AE%E5%8F%82%E8%80%83%E3%83%AA%E3%83%B3%E3%82%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>操作の参考リンク</h3>
+
+<ul>
+	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=002">Jw_cad 情報交換室</a></li>
+	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=004">Jw_cad 相談室－その２（初心者向け）</a></li>
+	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=002">Jw_cad 相談室－その３</a></li>
+	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=001">（旧）Jw_cad 情報交換室</a></li>
+</ul>
+
+<h2><a id="ライセンス" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ライセンス</h2>
+
+<h3><a id="jw_cad" class="anchor" href="#jw_cad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jw_cad</h3>
+
+<ul>
+	<li>著作権者: 清水 治郎氏, 田中 善文氏</li>
+	<li>公式サイト: <a href="http://www.jwcad.net/">http://www.jwcad.net/</a></li>
+	<li>ライセンス: <a href="http://www.jwcad.net/copyright.htm">http://www.jwcad.net/copyright.htm</a></li>
+</ul>
+
+<h3><a id="wine" class="anchor" href="#wine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wine</h3>
+
+<ul>
+	<li>著作権者: <a href="https://en.wikipedia.org/wiki/Alexandre_Julliard">Alexandre Julliard</a> &amp; <a href="https://source.winehq.org/source/AUTHORS">WineAuthors</a></li>
+	<li>公式サイト: <a href="http://www.winehq.org/">http://www.winehq.org/</a></li>
+	<li>ライセンス: GNU LGPL v2.1+</li>
+</ul>
+
+<h3><a id="wineskin" class="anchor" href="#wineskin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wineskin</h3>
+
+<ul>
+	<li>著作者: Doh123 &amp; the Wineskin Project</li>
+	<li>公式サイト: <a href="http://wineskin.urgesoftware.com/">http://wineskin.urgesoftware.com/</a></li>
+	<li>ライセンス: GNU LGPL v2.1</li>
+</ul>
+
+<h3><a id="jw-cad-for-mac-1" class="anchor" href="#jw-cad-for-mac-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JW-CAD for Mac</h3>
+
+<ul>
+	<li>著作者: KEINOS &amp; JW-CAD for Mac Project</li>
+	<li>公式サイト: <a href="https://keinos.github.io/Jw_cad-for-Mac">https://keinos.github.io/Jw_cad-for-Mac</a></li>
+	<li>ライセンス: GNU LGPL v2.1</li>
+</ul>
+
+<h2><a id="免責事項" class="anchor" href="#%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>免責事項</h2>
+
+<ul>
+	<li>このプログラムを使用した事によって発生した損害は、一切補償しません。</li>
+	<li>このプログラムに不備があっても、作者はそれを訂正する義務を負いません。</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/KEINOS/Jw_cad-for-Mac">JW-CAD for Mac</a> is maintained by <a href="https://github.com/KEINOS">KEINOS</a>.</span>
+
+        <span class="site-footer-credits">This page was powered by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+        <span class="site-footer-owner">&copy; 2016 KEINOS, Jw_cad, Wineskin Winery, WineHQ, JW-CAD for Mac Project.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

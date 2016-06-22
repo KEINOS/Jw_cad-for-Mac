@@ -3,6 +3,7 @@ WINE REGISTRY Version 2
 
 #arch=win32
 
+<<<<<<< HEAD
 [AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1464891795
 #time=1d1bcfbd47d9942
 @=""
@@ -21,6 +22,26 @@ WINE REGISTRY Version 2
 
 [Control Panel\\Colors] 1464891804
 #time=1d1bcfbd966c35c
+=======
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1466581810
+#time=1d1cc5ab3adf68a
+@=""
+
+[Control Panel\\Accessibility\\Blind Access] 1466581805
+#time=1d1cc5ab0826946
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1466581805
+#time=1d1cc5ab0825514
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1466581805
+#time=1d1cc5ab0826d42
+"On"="0"
+
+[Control Panel\\Colors] 1466581818
+#time=1d1cc5ab891c370
+>>>>>>> gh-pages
 "ActiveBorder"="212 212 212"
 "background"="0 0 0"
 "ButtonAlternateFace"="181 181 181"
@@ -41,8 +62,13 @@ WINE REGISTRY Version 2
 "Window"="255 255 255"
 "WindowFrame"="0 0 0"
 
+<<<<<<< HEAD
 [Control Panel\\Desktop] 1464891804
 #time=1d1bcfbd966c564
+=======
+[Control Panel\\Desktop] 1466581818
+#time=1d1cc5ab891c550
+>>>>>>> gh-pages
 "ActiveWndTrackTimeout"=dword:00000000
 "BlockSendInputResets"="0"
 "CaretWidth"=dword:00000001
@@ -68,8 +94,13 @@ WINE REGISTRY Version 2
 "WheelScrollChars"="3"
 "WheelScrollLines"="3"
 
+<<<<<<< HEAD
 [Control Panel\\Desktop\\WindowMetrics] 1464891790
 #time=1d1bcfbd18b25f6
+=======
+[Control Panel\\Desktop\\WindowMetrics] 1466581805
+#time=1d1cc5ab0826fae
+>>>>>>> gh-pages
 "BorderWidth"="-15"
 "CaptionHeight"="-270"
 "CaptionWidth"="-270"
@@ -85,8 +116,13 @@ WINE REGISTRY Version 2
 "SmCaptionHeight"="-225"
 "SmCaptionWidth"="-225"
 
+<<<<<<< HEAD
 [Control Panel\\International] 1464891790
 #time=1d1bcfbd12cf490
+=======
+[Control Panel\\International] 1466581803
+#time=1d1cc5aafc6bd4a
+>>>>>>> gh-pages
 "iCalendarType"="1"
 "iCountry"="81"
 "iCurrDigits"="0"
@@ -135,6 +171,7 @@ WINE REGISTRY Version 2
 "sTimeFormat"="H:mm:ss"
 "sYearMonth"="yyyy'\x5e74'M'\x6708'"
 
+<<<<<<< HEAD
 [Control Panel\\Keyboard] 1464891790
 #time=1d1bcfbd18b0864
 "KeyboardDelay"="1"
@@ -142,6 +179,15 @@ WINE REGISTRY Version 2
 
 [Control Panel\\Mouse] 1464891790
 #time=1d1bcfbd18b2790
+=======
+[Control Panel\\Keyboard] 1466581805
+#time=1d1cc5ab0825654
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1466581805
+#time=1d1cc5ab08270d0
+>>>>>>> gh-pages
 "ActiveWindowTracking"=dword:00000000
 "DoubleClickHeight"="4"
 "DoubleClickSpeed"="500"
@@ -156,6 +202,7 @@ WINE REGISTRY Version 2
 "SnapToDefaultButton"="0"
 "SwapMouseButtons"="0"
 
+<<<<<<< HEAD
 [Control Panel\\Sound] 1464891790
 #time=1d1bcfbd18ade34
 "Beep"="Yes"
@@ -190,6 +237,42 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2] 1464891794
 #time=1d1bcfbd391a348
+=======
+[Control Panel\\Sound] 1466581805
+#time=1d1cc5ab0822f8a
+"Beep"="Yes"
+
+[Environment] 1466581806
+#time=1d1cc5ab121d9d6
+"TEMP"="C:\\users\\admin\\Temp"
+"TMP"="C:\\users\\admin\\Temp"
+
+[Keyboard Layout\\Preload] 1466581818
+#time=1d1cc5ab8a0891e
+"1"="e0010411"
+
+[Software] 1466583153
+#time=1d1cc5dd436c640
+@=""
+
+[Software\\Jw_cad\\jw_win] 1466583153
+#time=1d1cc5dd436d086
+
+[Software\\Microsoft\\Installer\\Features\\0298D54E857A88046B6C13BD2B6799E2] 1466581808
+#time=1d1cc5ab2a943d4
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Features\\0A860BE35B24CB647A51DF673503D84C] 1466581810
+#time=1d1cc5ab371a644
+"wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Features\\931F5F8B1BD1C4E44AA481B9B60AC66C] 1466583153
+#time=1d1cc5dd43b8158
+"AlwaysInstall"=""
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2] 1466581808
+#time=1d1cc5ab2a9603a
+>>>>>>> gh-pages
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -200,6 +283,7 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Mono"
 "Version"=dword:04060002
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList] 1464891794
 #time=1d1bcfbd391b41e
 "LastUsedSource"="n;1;Z:\\Users\\admin\\.cache\\wine\\"
@@ -207,16 +291,34 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Media] 1464891794
 #time=1d1bcfbd391b644
+=======
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList] 1466581808
+#time=1d1cc5ab2a9752a
+"LastUsedSource"="n;1;Z:\\Users\\admin\\.cache\\wine\\"
+"PackageName"="wine-mono-4.6.2.msi"
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Media] 1466581808
+#time=1d1cc5ab2a97746
+>>>>>>> gh-pages
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Net] 1464891794
 #time=1d1bcfbd391ad02
 "1"=str(2):"Z:\\Users\\admin\\.cache\\wine\\"
 
 [Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C] 1464891795
 #time=1d1bcfbd4473d66
+=======
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Net] 1466581808
+#time=1d1cc5ab2a96e4a
+"1"=str(2):"Z:\\Users\\admin\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C] 1466581810
+#time=1d1cc5ab371b80a
+>>>>>>> gh-pages
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -227,6 +329,7 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Gecko (32-bit)"
 "Version"=dword:022c0000
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList] 1464891795
 #time=1d1bcfbd4474f9a
 "LastUsedSource"="n;1;Z:\\Users\\admin\\.cache\\wine\\"
@@ -234,16 +337,34 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList\\Media] 1464891795
 #time=1d1bcfbd44751de
+=======
+[Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList] 1466581810
+#time=1d1cc5ab371cb24
+"LastUsedSource"="n;1;Z:\\Users\\admin\\.cache\\wine\\"
+"PackageName"="wine_gecko-2.44-x86.msi"
+
+[Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList\\Media] 1466581810
+#time=1d1cc5ab371cdae
+>>>>>>> gh-pages
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList\\Net] 1464891795
 #time=1d1bcfbd44747d4
 "1"=str(2):"Z:\\Users\\admin\\.cache\\wine\\"
 
 [Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C] 1464930181
 #time=1d1bd5533eea8b8
+=======
+[Software\\Microsoft\\Installer\\Products\\0A860BE35B24CB647A51DF673503D84C\\SourceList\\Net] 1466581810
+#time=1d1cc5ab371c3a4
+"1"=str(2):"Z:\\Users\\admin\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C] 1466583153
+#time=1d1cc5dd43bf67e
+>>>>>>> gh-pages
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -255,6 +376,7 @@ WINE REGISTRY Version 2
 "ProductName"="Jw_cad"
 "Version"=dword:08010002
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList] 1464930181
 #time=1d1bd5533eec56e
 "LastUsedSource"="n;1;C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
@@ -262,10 +384,20 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Media] 1464930181
 #time=1d1bd5533eec94c
+=======
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList] 1466583153
+#time=1d1cc5dd43c1ee2
+"LastUsedSource"="n;1;C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+"PackageName"="Jw_cad.msi"
+
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Media] 1466583153
+#time=1d1cc5dd43c2298
+>>>>>>> gh-pages
 "1"="DISK1;1"
 "DiskPrompt"=""
 "MediaPackage"=""
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Net] 1464930181
 #time=1d1bd5533eeb86c
 "1"=str(2):"C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
@@ -303,6 +435,45 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1464930170
 #time=1d1bd552da5b9f6
+=======
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Net] 1466583153
+#time=1d1cc5dd43c0d6c
+"1"=str(2):"C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1466581808
+#time=1d1cc5ab2a95306
+"0298D54E857A88046B6C13BD2B6799E2"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\ADF909AA16ED9784E920D37B806499E7] 1466581810
+#time=1d1cc5ab371af40
+"0A860BE35B24CB647A51DF673503D84C"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\B9BEEE819DF5D1B44B8077276C3CE70B] 1466583153
+#time=1d1cc5dd43bd34c
+"931F5F8B1BD1C4E44AA481B9B60AC66C"=""
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1466581810
+#time=1d1cc5ab3a95a3a
+"Search Page"="http://www.google.com"
+"Start Page"="http://www.winehq.org"
+
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1466581806
+#time=1d1cc5ab116bff6
+
+[Software\\Microsoft\\Internet Explorer\\Settings] 1466581810
+#time=1d1cc5ab3a95bf2
+"Text Color"="0,0,0"
+
+[Software\\Microsoft\\Protected Storage System Provider] 1466581810
+#time=1d1cc5ab3adf766
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit] 1466582474
+#time=1d1cc5c3faf3ab2
+"LastKey"="HKEY_CURRENT_USER\\Software\\Wine\\Drivers"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1466583140
+#time=1d1cc5dcc34721c
+>>>>>>> gh-pages
 "Administrative Tools"="C:\\users\\admin\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\admin\\Application Data"
 "Cache"="C:\\users\\admin\\Local Settings\\Temporary Internet Files"
@@ -331,8 +502,13 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\admin\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\admin\\Links"
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1464891791
 #time=1d1bcfbd2284840
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1466581806
+#time=1d1cc5ab1213116
+>>>>>>> gh-pages
 "Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\Application Data"
 "Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"
@@ -361,23 +537,41 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1464891795
 #time=1d1bcfbd4560616
 "User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1464891795
 #time=1d1bcfbd456036e
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1466581810
+#time=1d1cc5ab383dfbc
+"User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1466581810
+#time=1d1cc5ab383dd00
+>>>>>>> gh-pages
 @=""
 "IntranetName"=dword:00000001
 "ProxyByPass"=dword:00000001
 "UNCAsIntranet"=dword:00000001
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1464891795
 #time=1d1bcfbd4560170
 @=""
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1464891795
 #time=1d1bcfbd455fe96
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1466581810
+#time=1d1cc5ab383dad0
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1466581810
+#time=1d1cc5ab383d814
+>>>>>>> gh-pages
 @=""
 "@ivt"=dword:00000001
 "file"=dword:00000003
@@ -385,6 +579,7 @@ WINE REGISTRY Version 2
 "http"=dword:00000003
 "https"=dword:00000003
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1464891795
 #time=1d1bcfbd45603dc
 @=""
@@ -395,6 +590,18 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1464891795
 #time=1d1bcfbd4567bbe
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1466581810
+#time=1d1cc5ab383dd78
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1466581810
+#time=1d1cc5ab3860800
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1466581810
+#time=1d1cc5ab3846b1c
+>>>>>>> gh-pages
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000000
@@ -432,8 +639,13 @@ WINE REGISTRY Version 2
 "Flags"=dword:00000021
 "Icon"="explorer.exe#0100"
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1464891795
 #time=1d1bcfbd456f51c
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1466581810
+#time=1d1cc5ab384faa0
+>>>>>>> gh-pages
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -473,8 +685,13 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010500
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1464891795
 #time=1d1bcfbd4579f44
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1466581810
+#time=1d1cc5ab38580e2
+>>>>>>> gh-pages
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000001
@@ -514,8 +731,13 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010000
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1464891795
 #time=1d1bcfbd4582162
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1466581810
+#time=1d1cc5ab386056c
+>>>>>>> gh-pages
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -555,8 +777,13 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00011000
 "RecommendedLevel"=dword:00011000
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1464891795
 #time=1d1bcfbd458a650
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1466581810
+#time=1d1cc5ab3868744
+>>>>>>> gh-pages
 @=""
 "1001"=dword:00000003
 "1004"=dword:00000003
@@ -596,6 +823,7 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
+<<<<<<< HEAD
 [Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1464891795
 #time=1d1bcfbd47c68b0
 
@@ -626,123 +854,226 @@ WINE REGISTRY Version 2
 
 [Software\\Wine\\FileOpenAssociations\\.chm] 1464891804
 #time=1d1bcfbd988718c
+=======
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1466581810
+#time=1d1cc5ab3acbc2a
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1466581806
+#time=1d1cc5ab13a94a8
+"Print_to_VipRiser"="wineps.drv,CUPS:Print_to_VipRiser"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1466581806
+#time=1d1cc5ab13aa47a
+"Print_to_VipRiser"="wineps.drv,CUPS:Print_to_VipRiser,15,45"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1466581806
+#time=1d1cc5ab13b5cb2
+"device"="Print_to_VipRiser,wineps.drv,CUPS:Print_to_VipRiser"
+
+[Software\\Wine\\Debug] 1466581810
+#time=1d1cc5ab3ad11de
+"RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
+"RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
+
+[Software\\Wine\\Direct3D] 1466581818
+#time=1d1cc5ab891c6ea
+
+[Software\\Wine\\Drivers] 1466582471
+#time=1d1cc5c3dce774e
+"Audio"="coreaudio"
+"Graphics"="mac"
+
+[Software\\Wine\\FileOpenAssociations\\.chm] 1466581818
+#time=1d1cc5ab8b63a02
+>>>>>>> gh-pages
 "AppName"="hh"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-chm.desktop"
 "MimeType"="application/x-wine-extension-chm"
 "OpenWithIcon"="A35F_hh.0"
 "ProgID"="chm.file"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.gif] 1464891804
 #time=1d1bcfbd98d61d8
+=======
+[Software\\Wine\\FileOpenAssociations\\.gif] 1466581818
+#time=1d1cc5ab8bb5ed8
+>>>>>>> gh-pages
 "AppName"="Wine Internet Explorer"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-gif.desktop"
 "MimeType"="image/gif"
 "OpenWithIcon"="FB4C_iexplore.0"
 "ProgID"="giffile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.hlp] 1464891804
 #time=1d1bcfbd9905500
+=======
+[Software\\Wine\\FileOpenAssociations\\.hlp] 1466581818
+#time=1d1cc5ab8be83b0
+>>>>>>> gh-pages
 "AppName"="winhlp32"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-hlp.desktop"
 "MimeType"="application/x-wine-extension-hlp"
 "OpenWithIcon"="4137_winhlp32.0"
 "ProgID"="hlpfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.htm] 1464891804
 #time=1d1bcfbd992a3dc
+=======
+[Software\\Wine\\FileOpenAssociations\\.htm] 1466581818
+#time=1d1cc5ab8c0ce7c
+>>>>>>> gh-pages
 "AppName"="winebrowser"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-htm.desktop"
 "MimeType"="text/html"
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="htmlfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.ini] 1464891804
 #time=1d1bcfbd9976b60
+=======
+[Software\\Wine\\FileOpenAssociations\\.ini] 1466581818
+#time=1d1cc5ab8c580de
+>>>>>>> gh-pages
 "AppName"="notepad"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-ini.desktop"
 "MimeType"="application/x-wine-extension-ini"
 "OpenWithIcon"="1E64_notepad.0"
 "ProgID"="inifile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.jfif] 1464891804
 #time=1d1bcfbd99aebb4
+=======
+[Software\\Wine\\FileOpenAssociations\\.jfif] 1466581818
+#time=1d1cc5ab8c8d766
+>>>>>>> gh-pages
 "AppName"="Wine Internet Explorer"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-jfif.desktop"
 "MimeType"="image/jpeg"
 "OpenWithIcon"="FB4C_iexplore.0"
 "ProgID"="pjpegfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.jpe] 1464891804
 #time=1d1bcfbd99d89d2
+=======
+[Software\\Wine\\FileOpenAssociations\\.jpe] 1466581818
+#time=1d1cc5ab8cb8bdc
+>>>>>>> gh-pages
 "AppName"="Wine Internet Explorer"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-jpe.desktop"
 "MimeType"="image/jpeg"
 "OpenWithIcon"="FB4C_iexplore.0"
 "ProgID"="jpegfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.msp] 1464891804
 #time=1d1bcfbd9a972d8
+=======
+[Software\\Wine\\FileOpenAssociations\\.msp] 1466581819
+#time=1d1cc5ab8d7c000
+>>>>>>> gh-pages
 "AppName"="Wine Installer"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-msp.desktop"
 "MimeType"="application/x-wine-extension-msp"
 "OpenWithIcon"="2402_msiexec.0"
 "ProgID"="Msi.Patch"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.png] 1464891804
 #time=1d1bcfbd9ac0d4a
+=======
+[Software\\Wine\\FileOpenAssociations\\.png] 1466581819
+#time=1d1cc5ab8da6c74
+>>>>>>> gh-pages
 "AppName"="Wine Internet Explorer"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-png.desktop"
 "MimeType"="image/png"
 "OpenWithIcon"="FB4C_iexplore.0"
 "ProgID"="pngfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.rtf] 1464891804
 #time=1d1bcfbd9aeec54
+=======
+[Software\\Wine\\FileOpenAssociations\\.rtf] 1466581819
+#time=1d1cc5ab8dd38dc
+>>>>>>> gh-pages
 "AppName"="wordpad"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-rtf.desktop"
 "MimeType"="application/x-wine-extension-rtf"
 "OpenWithIcon"="97C1_wordpad.0"
 "ProgID"="rtffile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.txt] 1464891804
 #time=1d1bcfbd9b371ca
+=======
+[Software\\Wine\\FileOpenAssociations\\.txt] 1466581819
+#time=1d1cc5ab8e1aaa2
+>>>>>>> gh-pages
 "AppName"="notepad"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-txt.desktop"
 "MimeType"="text/plain"
 "OpenWithIcon"="1E64_notepad.0"
 "ProgID"="txtfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.url] 1464891804
 #time=1d1bcfbd9b517c8
+=======
+[Software\\Wine\\FileOpenAssociations\\.url] 1466581819
+#time=1d1cc5ab8e34d8a
+>>>>>>> gh-pages
 "AppName"="rundll32"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-url.desktop"
 "MimeType"="application/x-wine-extension-url"
 "OpenWithIcon"="1CD8_rundll32.0"
 "ProgID"="InternetShortcut"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.vbs] 1464891804
 #time=1d1bcfbd9b55ac6
+=======
+[Software\\Wine\\FileOpenAssociations\\.vbs] 1466581819
+#time=1d1cc5ab8e38fb6
+>>>>>>> gh-pages
 "AppName"="A Wine application"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-vbs.desktop"
 "MimeType"="application/x-wine-extension-vbs"
 "ProgID"="VBSFile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.wri] 1464891804
 #time=1d1bcfbd9b82ddc
+=======
+[Software\\Wine\\FileOpenAssociations\\.wri] 1466581819
+#time=1d1cc5ab8e668f8
+>>>>>>> gh-pages
 "AppName"="wordpad"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-wri.desktop"
 "MimeType"="application/x-wine-extension-wri"
 "OpenWithIcon"="97C1_wordpad.0"
 "ProgID"="wrifile"
 
+<<<<<<< HEAD
 [Software\\Wine\\FileOpenAssociations\\.xml] 1464891804
 #time=1d1bcfbd9b9c84a
+=======
+[Software\\Wine\\FileOpenAssociations\\.xml] 1466581819
+#time=1d1cc5ab8e801f4
+>>>>>>> gh-pages
 "AppName"="winebrowser"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-xml.desktop"
 "MimeType"="text/xml"
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
+<<<<<<< HEAD
 [Software\\Wine\\Fonts] 1464930164
 #time=1d1bd552a0b029c
 "Codepages"="932,932"
@@ -750,6 +1081,15 @@ WINE REGISTRY Version 2
 
 [Software\\Wine\\Fonts\\External Fonts] 1464930164
 #time=1d1bd552a0e4aa6
+=======
+[Software\\Wine\\Fonts] 1466583134
+#time=1d1cc5dc89bceb6
+"Codepages"="932,932"
+"LogPixels"=dword:00000060
+
+[Software\\Wine\\Fonts\\External Fonts] 1466583134
+#time=1d1cc5dc89f3d76
+>>>>>>> gh-pages
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -1071,7 +1411,11 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
+<<<<<<< HEAD
 "Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_Ver.8.0x_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+=======
+"Marlett"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD_Ver.8.0x_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+>>>>>>> gh-pages
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -1281,6 +1625,7 @@ WINE REGISTRY Version 2
 "\x9ed2\x4f53-\x7e41 \x30df\x30c7\x30a3\x30a2\x30e0"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "\x9ed2\x4f53-\x7e41 \x30e9\x30a4\x30c8"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 
+<<<<<<< HEAD
 [Software\\Wine\\Mac Driver] 1464891804
 #time=1d1bcfbd966cbcc
 "CaptureDisplaysForFullscreen"="y"
@@ -1295,3 +1640,19 @@ WINE REGISTRY Version 2
 "/Users/admin/.local/share/applications/wine/Programs/Jw_cad/Uninstall.desktop"="/Users/admin/Documents/Git/Jw_cad-for-Mac/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/Uninstall.lnk"
 "/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.desktop"="/Users/admin/Documents/Git/Jw_cad-for-Mac/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.lnk"
 "/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x30d8\x30eb\x30d7.desktop"="/Users/admin/Documents/Git/Jw_cad-for-Mac/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x30d8\x30eb\x30d7.lnk"
+=======
+[Software\\Wine\\Mac Driver] 1466581818
+#time=1d1cc5ab891cbd6
+"CaptureDisplaysForFullscreen"="y"
+
+[Software\\Wine\\MenuFiles] 1466583153
+#time=1d1cc5dd4817a64
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-jw_cad.menu"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/jw_cad.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-Uninstall.menu"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/Uninstall.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.menu"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-\x30d8\x30eb\x30d7.menu"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x30d8\x30eb\x30d7.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/jw_cad.desktop"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/jw_cad.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/Uninstall.desktop"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/Uninstall.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.desktop"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x30d8\x30eb\x30d7.desktop"="/Users/admin/Applications/Wineskin/JW-CAD_Ver.8.0x_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x30d8\x30eb\x30d7.lnk"
+>>>>>>> gh-pages
