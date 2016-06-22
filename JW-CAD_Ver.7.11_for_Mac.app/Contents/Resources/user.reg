@@ -700,13 +700,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1466582514
-#time=1d1cc5c574771d0
+[Software\\Wine\\Fonts] 1466605122
+#time=1d1cc90fa9212e4
 "Codepages"="932,932"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1466582514
-#time=1d1cc5c574accf4
+[Software\\Wine\\Fonts\\External Fonts] 1466605122
+#time=1d1cc90fa957ccc
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -1028,7 +1028,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
