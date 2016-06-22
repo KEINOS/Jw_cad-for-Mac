@@ -1,0 +1,138 @@
+WineskinX11: main(): argc=12
+Waiting for startup parameters via Mach IPC.
+WineskinX11: do_start_x11_server(): argc=12
+Attempting to use pixel depth of 24
+[1998605.976] WineskinX11 starting:
+[1998605.976] X.Org X Server 1.13.0
+[1998605.976] Build Date: 20120921
+[1998605.976] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+[1998605.979] Initializing built-in extension Generic Event Extension
+[1998605.979] Initializing built-in extension SHAPE
+[1998605.979] Initializing built-in extension MIT-SHM
+[1998605.979] Initializing built-in extension XInputExtension
+[1998605.979] Initializing built-in extension XTEST
+[1998605.979] Initializing built-in extension BIG-REQUESTS
+[1998605.979] Initializing built-in extension SYNC
+[1998605.979] Initializing built-in extension XKEYBOARD
+[1998605.979] Initializing built-in extension XC-MISC
+[1998605.979] Initializing built-in extension XINERAMA
+[1998605.979] Initializing built-in extension PseudoramiX
+[1998605.979] Initializing built-in extension XFIXES
+[1998605.979] Initializing built-in extension RENDER
+[1998605.979] Initializing built-in extension RANDR
+[1998605.979] Initializing built-in extension DAMAGE
+[1998605.979] Initializing built-in extension MIT-SCREEN-SAVER
+[1998605.979] Initializing built-in extension DOUBLE-BUFFER
+[1998605.979] Initializing built-in extension RECORD
+[1998605.979] Initializing built-in extension X-Resource
+[1998605.979] Initializing built-in extension XVideo
+[1998605.979] Initializing built-in extension XVideo-MotionCompensation
+[1998605.979] Initializing built-in extension GLX
+[1998605.979] x: 0, y: 0, w: 1680, h: 1027
+[1998606.001] (II) GLX: Initialized Core OpenGL GL provider for screen 0
+set +o allexport
+set -o braceexpand
+set -o emacs
+set +o errexit
+set +o errtrace
+set +o functrace
+set -o hashall
+set -o histexpand
+set -o history
+set +o ignoreeof
+set -o interactive-comments
+set +o keyword
+set +o monitor
+set +o noclobber
+set +o noexec
+set +o noglob
+set +o nolog
+set +o notify
+set +o nounset
+set +o onecmd
+set +o physical
+set +o pipefail
+set -o posix
+set +o privileged
+set +o verbose
+set +o vi
+set +o xtrace
+[1998606.158] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
+Engine Used: WS9Wine1.9.11
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro12,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2.7 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP121.0167.B16
+      SMC Version (system): 2.28f7
+
+Graphics/Displays:
+
+    Intel Iris Graphics 6100:
+
+      Chipset Model: Intel Iris Graphics 6100
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel (0x8086)
+      Device ID: 0x162b
+      Revision ID: 0x0009
+      Displays:
+        Color LCD:
+          Display Type: Retina LCD
+          Resolution: 2560 x 1600 Retina
+          Retina: Yes
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Built-In: Yes
+
+Engine Used: WS9Wine1.9.11
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro12,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2.7 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP121.0167.B16
+      SMC Version (system): 2.28f7
+
+Graphics/Displays:
+
+    Intel Iris Graphics 6100:
+
+      Chipset Model: Intel Iris Graphics 6100
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel (0x8086)
+      Device ID: 0x162b
+      Revision ID: 0x0009
+      Displays:
+        Color LCD:
+          Display Type: Retina LCD
+          Resolution: 2560 x 1600 Retina
+          Retina: Yes
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Built-In: Yes
+
