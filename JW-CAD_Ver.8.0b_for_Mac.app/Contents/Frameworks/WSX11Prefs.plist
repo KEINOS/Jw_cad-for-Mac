@@ -27,7 +27,7 @@
 	<key>nolisten_tcp</key>
 	<true/>
 	<key>option_sends_alt</key>
-	<false/>
+	<true/>
 	<key>rootless</key>
 	<true/>
 	<key>sync_clipboard_to_pasteboard</key>
