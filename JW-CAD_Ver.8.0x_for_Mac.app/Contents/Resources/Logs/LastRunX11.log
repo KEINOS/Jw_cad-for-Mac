@@ -2,37 +2,6 @@ WineskinX11: main(): argc=12
 Waiting for startup parameters via Mach IPC.
 WineskinX11: do_start_x11_server(): argc=12
 Attempting to use pixel depth of 24
-<<<<<<< HEAD
-[316282.769] WineskinX11 starting:
-[316282.769] X.Org X Server 1.13.0
-[316282.769] Build Date: 20120921
-[316282.770] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
-[316282.775] Initializing built-in extension Generic Event Extension
-[316282.775] Initializing built-in extension SHAPE
-[316282.775] Initializing built-in extension MIT-SHM
-[316282.775] Initializing built-in extension XInputExtension
-[316282.775] Initializing built-in extension XTEST
-[316282.775] Initializing built-in extension BIG-REQUESTS
-[316282.775] Initializing built-in extension SYNC
-[316282.775] Initializing built-in extension XKEYBOARD
-[316282.775] Initializing built-in extension XC-MISC
-[316282.775] Initializing built-in extension XINERAMA
-[316282.775] Initializing built-in extension PseudoramiX
-[316282.775] Initializing built-in extension XFIXES
-[316282.775] Initializing built-in extension RENDER
-[316282.775] Initializing built-in extension RANDR
-[316282.775] Initializing built-in extension DAMAGE
-[316282.775] Initializing built-in extension MIT-SCREEN-SAVER
-[316282.775] Initializing built-in extension DOUBLE-BUFFER
-[316282.775] Initializing built-in extension RECORD
-[316282.775] Initializing built-in extension X-Resource
-[316282.775] Initializing built-in extension XVideo
-[316282.775] Initializing built-in extension XVideo-MotionCompensation
-[316282.775] Initializing built-in extension GLX
-[316282.776] x: 0, y: 0, w: 1680, h: 1027
-[316282.809] (II) GLX: Initialized Core OpenGL GL provider for screen 0
-[316283.018] noPseudoramiXExtension=0, pseudoramiXNumScreens=1
-=======
 [1998605.976] WineskinX11 starting:
 [1998605.976] X.Org X Server 1.13.0
 [1998605.976] Build Date: 20120921
@@ -128,7 +97,6 @@ Graphics/Displays:
           Online: Yes
           Built-In: Yes
 
->>>>>>> gh-pages
 Engine Used: WS9Wine1.9.11
 Hardware:
 

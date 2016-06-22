@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-DYLD_FALLBACK_LIBRARY_PATH="${WINESKIN_LIB_PATH_FOR_FALLBACK}" "$(dirname "$0")/JW-CAD_Ver.7.11_for_Mac680911326Wine" "$@"
-=======
 DYLD_FALLBACK_LIBRARY_PATH="${WINESKIN_LIB_PATH_FOR_FALLBACK}" "$(dirname "$0")/JW-CAD_Ver.7.11_for_Mac23045948Wine" "$@"
->>>>>>> gh-pages
