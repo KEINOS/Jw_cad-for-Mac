@@ -27690,8 +27690,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1466582720
-#time=1d1cc5cd21b6ccc
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1466583497
+#time=1d1cc5ea16f0bb8
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -32209,8 +32209,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1466581810
 #time=1d1cc5ab3acfae6
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1466582720
-#time=1d1cc5cd21b6c54
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1466583497
+#time=1d1cc5ea16f0b40
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -34357,8 +34357,8 @@ WINE REGISTRY Version 2
 #time=1d1cc5ab3afd07c
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1466582721
-#time=1d1cc5cd29bc5c0
+[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1466583498
+#time=1d1cc5ea21e87dc
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:50,72,69,6e,74,5f,74,6f,5f,56,69,70,52,69,73,65,72,00,00,\
@@ -34381,9 +34381,13 @@ WINE REGISTRY Version 2
 "Separator File"=""
 "Share Name"=""
 "StartTime"=dword:00000000
-"Status"=dword:04000000
+"Status"=dword:00000000
 "txTimeout"=dword:00000000
 "UntilTime"=dword:00000000
+
+[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser\\PPD Overrides] 1466583498
+#time=1d1cc5ea21e8868
+"DefaultPageSize"="A4"
 
 [System\\CurrentControlSet\\Control\\ProductOptions] 1466582518
 #time=1d1cc5c59ba2c8c
