@@ -27690,8 +27690,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1466582514
-#time=1d1cc5c574acc7c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1466605122
+#time=1d1cc90fa957c68
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -28014,7 +28014,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -32209,8 +32209,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1466581810
 #time=1d1cc5ab3acfae6
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1466582514
-#time=1d1cc5c574acc18
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1466605122
+#time=1d1cc90fa957bfa
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular"="Z:\\Library\\Fonts\\Baoli.ttc"
@@ -32533,7 +32533,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett"="Z:\\Users\\admin\\Documents\\Git\\Jw_cad-for-Mac\\JW-CAD_Ver.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -34357,8 +34357,8 @@ WINE REGISTRY Version 2
 #time=1d1cc5ab3afd07c
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1466581806
-#time=1d1cc5ab13b1806
+[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1466605123
+#time=1d1cc90fb410556
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:50,72,69,6e,74,5f,74,6f,5f,56,69,70,52,69,73,65,72,00,00,\
@@ -34381,7 +34381,7 @@ WINE REGISTRY Version 2
 "Separator File"=""
 "Share Name"=""
 "StartTime"=dword:00000000
-"Status"=dword:00000000
+"Status"=dword:04000000
 "txTimeout"=dword:00000000
 "UntilTime"=dword:00000000
 
