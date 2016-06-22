@@ -1,8 +1,8 @@
 # JW-CAD for Mac
 ===
-### Ver.2016.06.01
+### Ver.2016.06.22
 
-　"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも使えるように工夫したフリーウェア・ソフトです。
+　"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも動作するように工夫した有志によるフリーウェア・ソフトです。
 
 ---
 
@@ -13,7 +13,7 @@
 ■本家 Jw_cad : [http://www.jwcad.net/](http://www.jwcad.net/)
 
 ## 概要
-　DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIX、とりわけMacのOSXでも使えるように[Wine]と[Jw_cad]を[Wineskin Winery]を使って1つのアプリとしてラッピングしたものです。
+　DOSの時代からある日本の老舗CADソフト"[Jw_cad]"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIX、とりわけMacのOSXでも使えるように[Wine]と[Jw_cad]を[Wineskin Winery]でラッピングして1つのアプリのようにしたものです。
 
 　ダウンロードすると、Jwwの安定バージョン(Ver.7.11)と最新バージョン(Ver.8系)の２つが同梱されています。
 
