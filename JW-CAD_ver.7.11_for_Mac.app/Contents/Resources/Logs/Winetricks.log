@@ -1,5 +1,0 @@
-Executing w_do_call win7
-Executing load_win7
-The operation completed successfully
-Setting Windows version to win7
-Executing winetricks_early_wine regedit C:\windows\Temp\_win7\set-winver.reg
