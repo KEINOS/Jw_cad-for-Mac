@@ -1,227 +1,491 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>JW-CAD for Mac by KEINOS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="./site_data/stylesheets/github-light.css" media="screen">
-  </head>
-
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">JW-CAD for Mac</h1>
-      <h2 class="project-tagline">Mac OSX10.xで動作するJw_cad (JWW, Jw_win)</h2>
-      <a href="https://github.com/KEINOS/Jw_cad-for-Mac" class="btn">View on GitHub</a>
-      <a href="https://github.com/KEINOS/Jw_cad-for-Mac/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/KEINOS/Jw_cad-for-Mac/tarball/master" class="btn">Download .tar.gz</a>
-			<div style="width:50%; margin:0 auto;" id="idSocialButton">
-				<div class="ninja_onebutton">
-			      <script type="text/javascript">
-				      //<![CDATA[
-				      (function(d){
-					      if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_e2aef6f1b469ac17ed853c3386d4904e)=='undefined'){
-						      document.write("<sc"+"ript type='text\/javascript' src='\/\/omt.shinobi.jp\/b\/e2aef6f1b469ac17ed853c3386d4904e'><\/sc"+"ript>");
-					      }else{
-						      window.NINJA_CO_JP_ONETAG_BUTTON_e2aef6f1b469ac17ed853c3386d4904e.ONETAGButton_Load();
-					      }
-				      })(document);
-				      //]]>
-			      </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
-			    </div>
-			</div><!-- /idSocialButton -->
-
-    </section>
-
-    <section class="main-content">
-
-<h1><a id="jw-cad-for-mac" class="anchor" href="#jw-cad-for-mac" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JW-CAD for Mac</h1>
-
-<h3><a id="ver20160622" class="anchor" href="#ver20160622" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ver.2016.06.22</h3>
-
-<p>　"JW-CAD for Mac" は、Windows版 "Jw_cad"（以下Jww）をMacのOSXでも動作するように工夫した有志によるフリーウェア・ソフトです。</p>
-
-<div class="btn-group btn-group-justified">
-    	<a class="btn btn-default">概要・仕様</a>
-    <a class="btn btn-primary">インストール</a>
-    <a class="btn btn-success">掲示板</a>
-    <a class="btn btn-info">免責事項</a>
-    <a class="btn btn-warning">リンク</a>
-    <a class="btn btn-danger">&nbsp;</a>
-</div>
-
-<hr>
-
-<p>■JW-CAD for Mac 公式サイト : <a href="https://keinos.github.io/Jw_cad-for-Mac/">https://keinos.github.io/Jw_cad-for-Mac</a></p>
-
-<p>■JW-CAD for Mac 情報交換 : <a href="https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac">https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac</a> </p>
-
-<p>■本家 Jw_cad : <a href="http://www.jwcad.net/">http://www.jwcad.net/</a></p>
-
-<h2><a id="概要" class="anchor" href="#%E6%A6%82%E8%A6%81" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>概要</h2>
-
-<p>　DOSの時代からある日本の老舗CADソフト"<a href="http://www.jwcad.net/">Jw_cad</a>"のWindows版を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIXとりわけMacのOSXでも使えるように<a href="http://ja.wikipedia.org/wiki/Wine">Wine</a>と<a href="http://www.jwcad.net/">Jw_cad</a>を<a href="http://wineskin.urgesoftware.com/">Wineskin Winery</a>でラッピングして、1つのアプリのようにしたものです。</p>
-
-<p>　ダウンロードすると、Jwwの安定バージョン(Ver.7.11)と最新バージョン(Ver.8系)の２つが同梱されています。</p>
-
-<p>　なお、内包されているJwwは、本体プログラムの改変なく、設定も そのままの状態（インストール直後の状態）なので、各種設定やカスタムはご自身で行っていただく必要があります。</p>
-
-<h2>
-<a id="主な対象者" class="anchor" href="#%E4%B8%BB%E3%81%AA%E5%AF%BE%E8%B1%A1%E8%80%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>主な対象者</h2>
-
-<ul>
-	<li>Macで使える無料の2D CADを試したい人</li>
-	<li>JwwのためだけにBootcamp、VMWare, Parallels, Virtual Boxなどを利用するのに躊躇している人</li>
-	<li>AutoCADやVectorworksといった海外製CADでなく、日本製が使いたい！という人</li>
-	<li>Macを買ったがJwwに愛がある人</li>
-</ul>
-
-<h2>
-<a id="対応os" class="anchor" href="#%E5%AF%BE%E5%BF%9Cos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>対応OS</h2>
-
-<ul>
-	<li>OS X 10.6 Snow Leopard</li>
-	<li>OS X 10.7 Lion</li>
-	<li>OS X 10.8 Mountain Lion</li>
-	<li>OS X 10.9 Mavericks</li>
-	<li>OS X 10.10 Yosemite</li>
-	<li>OS X 10.11 El Capitan</li>
-</ul>
-
-<h2><a id="サポート情報共有faqqaなど" class="anchor" href="#%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E6%83%85%E5%A0%B1%E5%85%B1%E6%9C%89faqqa%E3%81%AA%E3%81%A9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>サポート(情報共有・FAQ・Q＆Aなど）</h2>
-
-<p>　有志によるアプリであるため特別なサポートはありませんが、掲示板を用意しましたので、ユーザー間でサポートしあえれば嬉しいです。</p>
-
-<p>また、「こんな環境で動作したよ」といった情報なども掲示板で共有してください。</p>
-
-<p><strong>【注意】　"JW-CAD for Mac"やMac OSXに依存する質問（インストールの仕方や文字化け）などは、本家の方に質問されないようにしてください。</strong></p>
-
-<ul>
-	<li><a href="https://groups.google.com/forum/embed/?#!forum/jw-cad_for_mac">JW-CAD for Mac 掲示板</a> </li>
-</ul>
-
-<div style="wdith:100%; padding:0; margin:0; border:1px solid gray;">
-	<iframe id="forum_embed" src="javascript:void(0)" scrolling="no" frameborder="0" width="900" height="700"></iframe>
-	<script type="text/javascript">
-		document.getElementById("forum_embed").src =
-			"https://groups.google.com/forum/embed/?place=forum/jw-cad_for_mac" + 
-			"&showsearch=true" +
-			"&domian=keinos.github.io" +
-			"&hideforumtitle=true" +
-			"&showpopout=true" +
-			"&parenturl=" + encodeURIComponent(window.location.href);
-	</script>
-</div>
-
-<h2><a id="内包アプリのバージョン" class="anchor" href="#%E5%86%85%E5%8C%85%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>内包アプリのバージョン</h2>
-
-<ul>
-	<li>Jw_cad : 7.11, 8.01a</li>
-	<li>Wine : 1.9.11</li>
-	<li>Wineskin : 2.6.2</li>
-</ul>
-
-<h2><a id="動作確認済み環境" class="anchor" href="#%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88%E3%81%BF%E7%92%B0%E5%A2%83" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>動作確認済み環境</h2>
-
-<h3><a id="os" class="anchor" href="#os" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OS</h3>
-
-<ul>
-	<li><p>OS X 10.11.5 El Capitan @ MacBook Pro, Retina 13-inch, Early 2015</p></li>
-	<li><p>※Ver.8.0x系の最新版に関しては、私自身があまり使っていないこともあり十分な動作確認がされていません。情報いただけるとありがたいです。</p></li>
-</ul>
-
-<h3><a id="プリンタ" class="anchor" href="#%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>プリンタ</h3>
-
-<ul>
-	<li><a href="https://onflapp.wordpress.com/vipriser/">VipRiser Ver.2.0</a> (PDF 仮装プリンタ<a href="https://github.com/OSX" class="user-mention">@OSX</a> 10.11）</li>
-</ul>
-
-<h2><a id="簡易インストール手順" class="anchor" href="#%E7%B0%A1%E6%98%93%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>簡易インストール手順</h2>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="'JW-CAD for Mac'はMac版Jw_cadです。日本製CADの老舗2次元汎用CAD'Jw_cad'（Jww, Jw_win）を、MacOSXでも動作するようにオープンソースのソフトで工夫した有志によるフリーソフトです。">
+	<meta name="author" content="KEINOS">
 	
-<ol>
-	<li>"JW-CAD_for_Mac"の公式サイトにある"Download .zip"よりファイルをダウンロードし、解凍します。</li>
-	<li>解凍されると"JW-CAD_Ver.x.x_for_Mac"とJw_cadのバージョンにあわせたアプリが出来るので、利用したい方をアプリケーションフォルダなどに移動します。</li>
-	<li>Jwwアプリ内から"C:"ドライブにデータを保存するとアプリ内に保存されるため、ユーザーフォルダ内の方のアプリケーションフォルダに設置するのが望ましいです。</li>
-	<li>設置したアプリを、右クリック（control+クリック）して「開く」を選択し、警告画面でも「開く」を選ぶとアプリが起動します。</li>
-	<li>アプリのショートカットをドックなどに登録するなど、呼び出しやすいようにしてください。</li>
-</ol>
+	<title>'JW-CAD for Mac'(Mac版Jw_cad) by KEINOS</title>
+	
+	<!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<link href="./site_data/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-<h2><a id="windows環境との違いと注意事項" class="anchor" href="#windows%E7%92%B0%E5%A2%83%E3%81%A8%E3%81%AE%E9%81%95%E3%81%84%E3%81%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows環境との違いと注意事項</h2>
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="./site_data/js/ie-emulation-modes-warning.js"></script>
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- Custom styles for this template -->
+	<link href="./site_data/css/carousel.css" rel="stylesheet">
+	<!-- Custom styles by user -->
+	<style type="text/css">
+    	p { text-indent: 1em; }
 
-<ul>
-	<li>データの保存先 - Jwwアプリ内の"C:"ドライブはアプリ内に保存され、"Z:"ドライブはMacのインストールされているドライブが割り当てられます。</li>
-	<li>プリンタ名の文字化け - 印刷はMac（OSX）にインストールされているプリンタ・ドライバーが利用できますが、プリンタ名が日本語だとプリンタ名が文字化ける事があります。</li>
-	<li>データを渡した先での文字化け - Windowsの文字コードが基本的にSJIS-Win(CP932)であることに対し、OSXはUTF-16です。囲み文字、組文字、特殊文字などは一見Windowsのそれと同じに見えても異なる事があり、文字化けることがあります。</li>
-	<li>画面上の文字化け - MSゴシック・MS明朝・メイリオ以外のフォントを使った場合、フォントによって（特にMac独特のフォントの場合）文字バケることがります。</li>
-</ul>
+		.p-t-1 { padding-top: 1rem !important; }
+		.p-t-2 { padding-top: 2rem !important; }
+		.p-t-3 { padding-top: 3rem !important; }
+		.p-b-1 { padding-bottom: 1rem !important; }
+		.p-b-2 { padding-bottom: 2rem !important; }
+		.p-b-3 { padding-bottom: 3rem !important; }
+		
+		.indent-none { text-indent: 0em; }
 
-<h2><a id="アプリの使い方" class="anchor" href="#%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>アプリの使い方</h2>
+	</style>
+</head>
+<!-- NAVBAR ================================================== -->
+<body>
+	<div class="navbar-wrapper">
+	<div class="container">
+	
+		<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">JW-CAD for Mac</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">概要</a></li>
+					<li><a href="#download">ダウンロード</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">仕様 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#os">対応OS</a></li>
+							<li><a href="#howto">ご利用のポイント・注意点</a></li>
+							<li><a href="#credits">著作権及び使用条件</a></li>
+<!--
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">動作確認済み環境</li>
+							<li><a href="#">OS</a></li>
+							<li><a href="#">プリンタ</a></li>
+							<li><a href="#">プラグイン</a></li>
+-->
+						</ul>
+					</li>
+					<li><a href="#install">インストール方法</a></li>
+					<li><a href="#forum">掲示板／FAQ／サポート</a></li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+		
+		</div>
+		</div>
+		
+		
+		<!-- Carousel ================================================== -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+		
+			<div class="carousel-inner" role="listbox">
+	
+				<div class="item active">
+					<img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+					<div class="container">
+					<div class="carousel-caption">
+						<h1 class="p-b-2">あのJw_cadをMacで</h1>
+						<p class="p-b-1">"<strong>JW-CAD for Mac</strong>"は日本の老舗2次元CADである"<strong>Jw_cad</strong>"を、オープンソースのツールを使ってMac OSXでも動作するように工夫された有志による無料のCADソフトです。</p>
+						<p class="indent-none"><a class="btn btn-lg btn-primary" href="#about" role="button">詳しく見る</a></p>
+					</div>
+					</div>
+				</div>
+			
+				<div class="item">
+					<img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+					<div class="container">
+					<div class="carousel-caption">
+						<h1 class="p-b-2">みんなでサポート</h1>
+						<p>有志によるアプリであるため特別なサポートはありませんが、掲示板を用意しました。
+						<span class="text-nowrap">ユーザー間でサポートしあえれば嬉しいです。</span></p>
+						<p class="indent-none"><a class="btn btn-lg btn-primary" href="#forum" role="button">掲示板を見る</a></p>
+					</div>
+					</div>
+				</div>
 
-<p>　アプリ自体はWindows版Jw_cadそのものなので、たくさん出ているJw_cad本、ネットやフォーラムなどを参考にしてください。</p>
+<!--
+				<div class="item">
+					<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+					<div class="container">
+					<div class="carousel-caption">
+						<h1>One more for good measure.</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+					</div>
+					</div>
+				</div>
+-->
+	
+			</div>
+		
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div><!-- /.carousel -->
+		
+		
+		<!-- Marketing messaging and featurettes
+		================================================== -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+		
+		<div class="container marketing">
+		
+		<!-- Three columns of text below the carousel -->
+		<div class="row p-b-3">
 
-<p>　JW-CAD for MacおよびMacに特有の不具合や質問は、<strong>本家の方には問い合わせない</strong>ようにお願いいたします。</p>
+			<div class="col-lg-4">
+				<img id="" class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+				<h2 class="p-b-2">バージョン情報</h2>
+				<dl class="dl-horizontal">
+					<dt class="">JW-CAD for Mac</dt>
+					<dd class="text-justify">20161029</dd>
+					<dd class="text-justify"><small>※インストール後のバージョンの確認方法：アイコンを右クリック（control+クリック）して「情報を見る」を選んだ後の「一般情報」にバージョンの記載があります。</small></dd>
 
-<h3><a id="操作の参考リンク" class="anchor" href="#%E6%93%8D%E4%BD%9C%E3%81%AE%E5%8F%82%E8%80%83%E3%83%AA%E3%83%B3%E3%82%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>操作の参考リンク</h3>
+					<dt class=""><span title="JWW, Jw_win">Jw_cad</span></dt>
+					<dd class="text-justify">7.11, 8.01b</dd>
+					
+					<dt class="">WineHQ</dt>
+					<dd class="text-justify">1.9.21 <span class="label label-default">New</span></dd>
+					
+					<dt class="">Wineskin</dt>
+					<dd class="text-justify">2.6.2</dd>
+					
+				</dl>
+			</div><!-- /.col-lg-4 -->
+			
+			<div class="col-lg-4" id="download">
+				<img id="idGitHubLogo" class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+				<h2 class="p-b-2">ダウンロード</h2>
+				<p class="text-justify">DropboxからGitHubにサーバーを変更したので、ダウンロード速度が速くなりました。</p>
+				<p class="text-justify">ダウンロードすると、<span title="JWW, Jw_win">Jw_cad</span>の安定バージョン(Ver.7.11)と最新バージョン(Ver.8系)の２つが同梱されています。</p>
+				<p class="text-justify">なお、内包されている<span title="JWW, Jw_win">Jw_cad</span>は、<a href="https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%8B%E3%83%A9_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)" target="_blank">バニラ</a>状態つまり本体プログラムの改変なく、設定も そのままの状態（インストール直後の状態）なので、各種設定やカスタムはご自身で行っていただく必要があります。</p>
+				<p class="p-t-2 indent-none"><a class="btn btn-success" href="https://github.com/KEINOS/Jw_cad-for-Mac/archive/master.zip" role="button">ダウンロード（Zip形式） &raquo;</a></p>
+				<p class="text-center indent-none"><a href="#install"><small>インストール方法</small></a></p>
+			</div><!-- /.col-lg-4 -->
+	
+			<div class="col-lg-4" id="os">
+				<img id="idMacOSXLogo" class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+				<h2>対応OS</h2>
+				<ul class="list-group">
+					<li class="list-group-item">macOS v10.12 Sierra <span class="label label-default">New</span></li>
+					<li class="list-group-item">OS X v10.11 El Capitan</li>
+					<li class="list-group-item">OS X v10.10 Yosemite</li>
+					<li class="list-group-item">OS X v10.9 Mavericks</li>
+					<li class="list-group-item">OS X v10.8 Mountain Lion</li>
+					<li class="list-group-item">Mac OS X v10.7 Lion</li>
+					<li class="list-group-item">Mac OS X v10.6 Snow Leopard</li>
+				</ul>
+			</div><!-- /.col-lg-4 -->
+		</div><!-- /.row -->
+		
+		<!-- Second row of three columns -->
+		<div class="row">
 
-<ul>
-	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=002">Jw_cad 情報交換室</a></li>
-	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=004">Jw_cad 相談室－その２（初心者向け）</a></li>
-	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=002">Jw_cad 相談室－その３</a></li>
-	<li><a href="http://www.jwcad.net/bbs2/c-board.cgi?id=001">（旧）Jw_cad 情報交換室</a></li>
-</ul>
+			<div class="col-lg-4" id="about">
+				<h2 class="p-b-2">JW-CAD for Macについて</h2>
+				<p class="text-justify">"JW-CAD for Mac"は、一言で言うとMacOSX上で動く謹製"<a class="link" href="http://www.jwcad.net/" target="_blank" title="Jw_cad公式サイト" alt="Jw_cad, JWW, Jw_win">Jw_cad</a>"です。</p>
+				<p class="text-justify">"<a class="link" href="http://www.jwcad.net/" target="_blank" title="Jw_cad公式サイト" alt="Jw_cad, JWW, Jw_win">Jw_cad</a>"(JWW, Jw_win)とは、DOSの時代からある日本製のWindows用CADで、20年近くの実績を持つ老舗のフリーウェアです。</p>
+				<p class="text-justify">その"<span title="JWW, Jw_win">Jw_cad</span>"を、Windowsユーザー以外にも幅広く知ってもらいたい・使ってもらいたいという願望から、UNIXとりわけMacのOSXでも使えるように"Wine"や"Wineskin Winery"といったオープンソースのソフトを使い、1つのアプリのようにしたものです。</p>
+				<p class="text-justify">厳密ではないのですが、擬似的なWindows7の環境を"JW-CAD for Mac"アプリ内で作り、その中で<span title="JWW, Jw_win">Jw_cad</span>が動いているイメージです。その為、susieプラグインといった外部DLLや、<span title="JWW, Jw_win">Jw_cad</span>以外のアプリもその環境にインストールする事が可能です。</p>
+			</div><!-- /.col-lg-4 -->
 
-<h2><a id="ライセンス" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ライセンス</h2>
+			<div class="col-lg-4">
+				<h2 class="p-b-2">主な対象者</h2>
+				<p class="text-justify">いささか知識が必要ですが、ぶっちゃけご自身でもこのソフトは作れます。しかし、Windows環境からMacへ移行して新しく覚えないといけない事が多いといった時間を惜しんでいる方にも、手軽にMacで<span title="JWW, Jw_win">Jw_cad</span>を利用してもらいたいと思い作成したアプリです。</p>
+				<ul class="list-group">
+					<li class="list-group-item text-justify">Macで使える<strong>無料の2次元CAD</strong>（2D-CAD）を試したい人。</li>
+					<li class="list-group-item text-justify"><span title="JWW, Jw_win">Jw_cad</span>のためだけにBootcamp、VMWare, Parallels, Virtual Boxなどを利用するのに躊躇している人。</li>
+					<li class="list-group-item text-justify"><a href="http://mikuinstaller.osdn.jp/" target="_blank">MikuInstaller</a>が2008年以降サポートされていないので替わりのアプリを探している人。</li>
+					<li class="list-group-item text-justify">AutoCADやVectorworksといった海外製CADでなく、日本製が使いたい！という人。</li>
+					<li class="list-group-item text-justify">Macを買ったが<strong><span title="Jw_cad,Jw_win">Jww</span>(Jw_cad)に愛がある人。</strong></li>
+				</ul>
+			</div><!-- /.col-lg-4 -->
+		
+			<div class="col-lg-4">
+				<h2 class="p-b-2">本家(Win版)との主な違い</h2>
+				<p class="text-justify">"JW-CAD for Mac"自体は、<span title="JWW, Jw_win">Jw_cad</span>をMacOSX用に作り直したものではなく<strong>Windows版のアプリがそのまま動いているため基本的に同じ</strong>です。</p>
+				<p class="text-justify">しかし、MacOSX上で動かしている以上、Windowsの時と若干の違いがあります。</p>
+				<ul class="list-group">
+					<li class="list-group-item text-justify">"C:"ドライブに保存すると、"JW-CAD for Mac"アプリ内部の仮想Windows環境に保存されます。また、"Z:"ドライブに保存した場合は、MacOSXのインストールされたドライブに保存されます。</li>
+					<li class="list-group-item text-justify">"JW-CAD for Mac"アプリ内では文字コードはSJISで扱われますが、MacOSX自体はUTF-8であるため文字コード（文字化け）の問題に注意ください。例えば、保存したファイルやファイル名をアプリ外部のMacOSX側から変更すると文字化ける可能性があります。</li>
+					<li class="list-group-item">同様にプリンタ名が日本語の場合、<span title="JWW, Jw_win">Jw_cad</span>から印刷をするとプリンタ名が文字化けます。</li>
+				</ul>
+			</div><!-- /.col-lg-4 -->
+	
+		</div><!-- /.row -->
 
-<h3><a id="jw_cad" class="anchor" href="#jw_cad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jw_cad</h3>
+		<!-- Forth row of four columns -->
+		<div class="row" id="howto">
+			<div><h2>ご利用時のポイント</h2></div>
 
-<ul>
-	<li>著作権者: 清水 治郎氏, 田中 善文氏</li>
-	<li>公式サイト: <a href="http://www.jwcad.net/">http://www.jwcad.net/</a></li>
-	<li>ライセンス: <a href="http://www.jwcad.net/copyright.htm">http://www.jwcad.net/copyright.htm</a></li>
-</ul>
+			<div class="col-lg-3 col-md-6" id="install">
+				<h3>インストール方法</h3>
+				<div class="list-group">
+					<ol>
+						<li>ダウンロードしたZIPファイルを解凍します。</li>
+						<li>解凍されたファイルのうち下記の、いずれか利用したい方を「アプリケーション」フォルダや任意の場所に移動します。※
+						    <ul>
+    						    <li>"JW-CAD_for_Mac-V.7.11.app"<br>（Jw_cad v.7.11）</li>
+    						    <li>"JW-CAD_for_Mac-V.8.01b.app"<br>（Jw_cad v.8.01b）</li>
+                            </ul>
+                        </li>
+						<li>設置したアプリを、右クリック（control+クリック）して「開く」を選択し、警告画面でも「開く」を選ぶとアプリが起動します。</li>
+					</ol>
+					<p><small>※ユーザーフォルダ内の「アプリケーション」フォルダに移動することをおすすめします。JW-CAD for Mac内のCドライブに保存されたデータは、アプリ内部に保存されるためです。</small></p>
+				</div>
+			</div><!-- /.col-lg-3 -->
+		
+			<div class="col-lg-3 col-md-6">
+				<h3>Cドライブの場所</h3>
+				<div class="text-justify small">
+					<p>JW-CAD for Macのアプリ上から、Cドライブにデータを保存するとアプリ内部に保存されます。アプリ以外（MacOSX本体側）から保存先にアクセスする方法は下記の通りです。</p>
+					<ol>
+						<li>"JW-CAD for Mac"を右クリック（ctrl+クリック）して、「パッケージの内容を表示」</li>
+						<li>"drive_c"フォルダがCドライブになります。</li>
+					</ol>
+					<p>※このフォルダはエイリアス（ショートカット）で、同階層の"Contents" → "Resources" → "drive_c"フォルダが厳密なCドライブの保存先です。</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<h3><a id="wine" class="anchor" href="#wine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wine</h3>
+			<div class="col-lg-3 col-md-6">
+				<h3>フォントについて</h3>
+				<div class="list-group text-justify small">
+					<p>"JW-CAD for Mac"でサポートしているフォントはTrueTypeフォントのうちでも下記のもののみです。</p>
+					<p>これら以外のフォントも選択はでき画面上でも表示されても印刷されない可能性があります。特にプリンタ・フォント、Macのシステム・フォントなどは殆ど印刷されません。</p>
+					<p class="list-group-item">ＭＳ 明朝／ＭＳ Ｐ明朝<br>(msmincho.ttc)</p>
+					<p class="list-group-item">ＭＳ ゴシック／ＭＳ Ｐゴシック<br>(msgothic.ttc)</p>
+					<p class="list-group-item">メイリオ<br>(meiryo.ttc/meiryob.ttc)</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<ul>
-	<li>著作権者: <a href="https://en.wikipedia.org/wiki/Alexandre_Julliard">Alexandre Julliard</a> &amp; <a href="https://source.winehq.org/source/AUTHORS">WineAuthors</a></li>
-	<li>公式サイト: <a href="http://www.winehq.org/">http://www.winehq.org/</a></li>
-	<li>ライセンス: GNU LGPL v2.1+</li>
-</ul>
+			<div class="col-lg-3 col-md-6">
+				<h3>不具合（対応中）</h3>
+				<div class="list-group">
+					<ol>
+						<li>ショートカットが効かない。<br><small>altキー以外のショートカットが動作しませんが、入力モードを直接入力にすると使用できます。</small></li>
+						<li>ファイルの拡張子の関連付けができない。</li>
+					</ol>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<h3><a id="wineskin" class="anchor" href="#wineskin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wineskin</h3>
+		</div><!-- /.row -->
 
-<ul>
-	<li>著作者: Doh123 &amp; the Wineskin Project</li>
-	<li>公式サイト: <a href="http://wineskin.urgesoftware.com/">http://wineskin.urgesoftware.com/</a></li>
-	<li>ライセンス: GNU LGPL v2.1</li>
-</ul>
+		<!-- Fifth row of four columns -->
+		<div class="row" id="credits">
+			<div class="col-lg-12">
+				<h2 class="featurette-heading">免責事項と著作権</h2>
+				<div class="text-justify">
+					<ul>
+						<li>このプログラムを使用した事によって発生した損害は、一切補償しません。</li>
+						<li>このプログラムに不備があっても、作者はそれを訂正する義務を負いません。</li>
+						<li>このプログラムを構成する各アプリケーションの著作及び著作権は次の通りです。</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-<h3><a id="jw-cad-for-mac-1" class="anchor" href="#jw-cad-for-mac-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JW-CAD for Mac</h3>
+		<!-- Sixth row of four columns -->
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<h3><span title="JWW, Jw_win">Jw_cad</span></h3>
+				<div class="list-group">
+					<p class="list-group-item">著作権者:<br>清水 治郎氏, 田中 善文氏</p>
+					<p class="list-group-item">公式サイト:<br>http://www.jwcad.net/</p>
+					<p class="list-group-item">ライセンス:<br>http://www.jwcad.net/copyright.htm</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<ul>
-	<li>著作者: KEINOS &amp; JW-CAD for Mac Project</li>
-	<li>公式サイト: <a href="https://keinos.github.io/Jw_cad-for-Mac">https://keinos.github.io/Jw_cad-for-Mac</a></li>
-	<li>ライセンス: GNU LGPL v2.1</li>
-</ul>
+			<div class="col-lg-3 col-md-6">
+				<h3>WineHQ</h3>
+				<div class="list-group">
+					<p class="list-group-item">著作権者:<br>Alexandre Julliard & WineAuthors</p>
+					<p class="list-group-item">公式サイト:<br>http://www.winehq.org/</p>
+					<p class="list-group-item">ライセンス:<br>GNU LGPL v2.1+</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<h2><a id="免責事項" class="anchor" href="#%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>免責事項</h2>
+			<div class="col-lg-3 col-md-6">
+				<h3>Wineskin</h3>
+				<div class="list-group">
+					<p class="list-group-item">著作者:<br>Doh123 & the Wineskin Project</p>
+					<p class="list-group-item">公式サイト:<br>http://wineskin.urgesoftware.com/</p>
+					<p class="list-group-item">ライセンス:<br>GNU LGPL v2.1</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
 
-<ul>
-	<li>このプログラムを使用した事によって発生した損害は、一切補償しません。</li>
-	<li>このプログラムに不備があっても、作者はそれを訂正する義務を負いません。</li>
-</ul>
+			<div class="col-lg-3 col-md-6">
+				<h3>JW-CAD for Mac</h3>
+				<div class="list-group">
+					<p class="list-group-item">著作者:<br>KEINOS & JW-CAD for Mac Project</p>
+					<p class="list-group-item">公式サイト:<br>https://keinos.github.io/Jw_cad-for-Mac</p>
+					<p class="list-group-item">ライセンス:<br>GNU LGPL v2.1</p>
+				</div>
+			</div><!-- /.col-lg-3 -->
+		
+		</div><!-- /.row -->
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/KEINOS/Jw_cad-for-Mac">JW-CAD for Mac</a> is maintained by <a href="https://github.com/KEINOS">KEINOS</a>.</span>
+		
+		<!-- START THE FEATURETTES -->
 
-        <span class="site-footer-credits">This page was powered by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-        <span class="site-footer-owner">&copy; 2016 KEINOS, Jw_cad, Wineskin Winery, WineHQ, JW-CAD for Mac Project.</span>
-      </footer>
+		<hr class="featurette-divider" id="forum">
+		
+		<div class="row featurette">
+			<h2 class="featurette-heading">掲示板／FAQ／サポート</h2>
+            <div>
+                <iframe id="forum_embed"
+                    src="javascript:void(0)"
+                    scrolling="no"
+                    frameborder="0"
+                    width="900"
+                    height="700">
+                </iframe>
+                <script type="text/javascript">
+                    document.getElementById('forum_embed').src =
+                    'https://groups.google.com/forum/embed/?place=forum/jw-cad_for_mac'
+                        + '&showsearch=true&showpopout=true&showtabs=false'
+                        + '&parenturl=' + encodeURIComponent(window.location.href);
+                </script>
+            </div>	
+		</div>
 
-    </section>
+		<hr class="featurette-divider">
 
-  
-  </body>
+<!--		
+		<hr class="featurette-divider">
+		
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading p-b-2">インストールの仕方 <span class="text-muted"><small>簡易版</small></span></h2>
+				<ol>
+					<li class="p-b-1">"JW-CAD_for_Mac"の公式サイトにある"ダウンロード"よりZIPファイルをダウンロードし、開いて解凍します。</li>
+					<li class="p-b-1">解凍されると"JW-CAD_Ver.x.x_for_Mac"と<span title="JWW, Jw_win">Jw_cad</span>のバージョンにあわせたアプリが２つ出来るので、利用したい方をアプリケーションフォルダなどに移動します。(※)</li>
+					<li class="p-b-1">設置したアプリを、右クリック（control+クリック）して「開く」を選択し、警告画面でも「開く」を選ぶとアプリが起動します。</li>
+					<li class="p-b-1">アプリのショートカットをドックなどに登録するなど、呼び出しやすいようにしてください。</li>
+				</ol>
+				<p class="text-justify">※<small> <span title="JWW, Jw_win">Jw_cad</span>アプリ内から"C:"ドライブにデータを保存するとアプリ内に保存されるため、ユーザーフォルダ内の方のアプリケーションフォルダに設置するのが望ましいです。</small></p>
+			</div>
+	
+			<div class="col-md-5">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			</div>
+		</div>
+-->
+
+<!--
+		<hr class="featurette-divider">
+		
+		<div class="row featurette">
+	
+			<div class="col-md-7 col-md-push-5">
+				<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<p>
+<script>
+  (function() {
+    var cx = '013345946746532049291:8m2iulrgmce';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+				</p>
+			</div>
+	
+			<div class="col-md-5 col-md-pull-7">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			</div>
+	
+		</div>
+
+-->
+
+<!--	
+		<hr class="featurette-divider">
+		
+		<div class="row featurette">
+	
+			<div class="col-md-7">
+				<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			</div>
+	
+			<div class="col-md-5">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			</div>
+	
+		</div>
+
+-->
+		
+		<hr class="featurette-divider">
+		
+		<!-- /END THE FEATURETTES -->
+		
+		
+		<!-- FOOTER -->
+		<footer>
+			<p class="pull-right"><a href="#">Back to top</a></p>
+			<p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		</footer>
+	
+	</div><!-- /.container -->
+	
+	
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="./site_data/js/jquery.1.11.3.min.js"></script>
+	<script>window.jQuery || document.write('<script src="./site_data/js/vendor.jquery.1.11.3.min.js"><\/script>')</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	<script src="./site_data/js/holder.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="./site_data/js/ie10-viewport-bug-workaround.js"></script>
+
+	<!-- User custom JavaScript
+	================================================== -->
+	<script>
+		var iIntervalTime = 15000;
+		var sImageJwcad   = "";
+		var sImageMacOSX  = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjI2NXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNjUgMjY1IiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iMjY1cHgiPgogPGRlZnM+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB5MT0iMTUlIiB4Mj0iNTAlIiB4MT0iNTAlIiB5Mj0iODUlIj4KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzU4QjBFMyIgb2Zmc2V0PSIwIi8+CiAgIDxzdG9wIHN0b3AtY29sb3I9IiNGNDRDMjYiIG9mZnNldD0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiA8L2RlZnM+CiA8Y2lyY2xlIGN5PSIxMzIuNSIgY3g9IjEzMi41IiByPSIxMzIuNSIgZmlsbD0iI2ZmZiIvPgogPHBhdGggZD0ibTE5My40IDUwLjk0aC04LjA1bC01Mi42MSA3Ni4wM2gtMC40OGwtNTIuNDkxLTc2LjAzaC04LjE2OGw1Ni42OTkgODEuOC01Ni40NTkgODEuMzJoOC4wNDhsNTIuMjUxLTc1Ljc5aDAuNDhsNTIuMjUgNzUuNzloOC4xN2wtNTYuNDYtODEuMzIgNTYuODItODEuOHoiIGZpbGw9InVybCgjZykiLz4KPC9zdmc+Cg==";
+		var sImageGitHub  = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTE3OEEzMjk5QTAxMUUyOUExNUJDMTA0NkE4OTA0RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQTQxNEFCQzk5QTExMUUyOUExNUJDMTA0NkE4OTA0RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1MTc4QTMwOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1MTc4QTMxOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+R7ClIwAADR5JREFUeNrsnQuw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";
+		
+		$("#myCarousel").carousel({'interval':iIntervalTime });
+		$("#idGitHubLogo").attr('src', sImageGitHub );
+		$("#idMacOSXLogo").attr('src', sImageMacOSX );
+
+		
+
+
+	</script>
+</body>
 </html>
