@@ -1,2 +1,0 @@
-#!/bin/bash
-DYLD_FALLBACK_LIBRARY_PATH="${WINESKIN_LIB_PATH_FOR_FALLBACK}" "$(dirname "$0")/JW-CAD_for_Mac-V.7.11338501904Wine" "$@"
