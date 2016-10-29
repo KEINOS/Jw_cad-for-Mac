@@ -1,0 +1,8 @@
+err:display:macdrv_ChangeDisplaySettingsEx No matching mode found 1680x1050x32 @60!
+fixme:ntdll:NtLockFile I/O completion on lock not implemented yet
+fixme:ntdll:NtLockFile I/O completion on lock not implemented yet
+err:richedit:ReadStyleSheet skipping optional destination
+err:richedit:ReadStyleSheet skipping optional destination
+fixme:msi:ITERATE_CreateShortcuts poorly handled shortcut format, advertised shortcut
+winedevice.exe(10846,0xba927000) malloc: *** error for object 0xe8680003: pointer being freed was not allocated
+*** set a breakpoint in malloc_error_break to debug
