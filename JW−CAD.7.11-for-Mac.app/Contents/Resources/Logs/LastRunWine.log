@@ -1,2 +1,2 @@
-winedevice.exe(3397,0xba927000) malloc: *** error for object 0xe8680003: pointer being freed was not allocated
+winedevice.exe(4365,0xba927000) malloc: *** error for object 0xe8680003: pointer being freed was not allocated
 *** set a breakpoint in malloc_error_break to debug
