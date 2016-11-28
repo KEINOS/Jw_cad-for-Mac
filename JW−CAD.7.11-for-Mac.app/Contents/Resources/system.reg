@@ -27873,8 +27873,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480290050
-#time=1d24907afc16e92
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480289047
+#time=1d2490559e260fa
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Brush Script MT Italic (TrueType)"="Z:\\Library\\Fonts\\Brush Script.ttf"
@@ -28138,7 +28138,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW\x2212CAD.7.11-for-Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW\x2212CAD.7.11-for-Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -32327,8 +32327,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1480288637
 #time=1d249046540140c
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480290050
-#time=1d24907afc16e1a
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480289047
+#time=1d2490559e2608c
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Brush Script MT Italic (TrueType)"="Z:\\Library\\Fonts\\Brush Script.ttf"
@@ -32592,7 +32592,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW\x2212CAD.7.11-for-Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW\x2212CAD.7.11-for-Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -34410,8 +34410,8 @@ WINE REGISTRY Version 2
 #time=1d249046542a6fe
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1480290051
-#time=1d24907b026c7d8
+[System\\CurrentControlSet\\Control\\Print\\Printers\\Print_to_VipRiser] 1480289048
+#time=1d249055a353442
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:50,72,69,6e,74,5f,74,6f,5f,56,69,70,52,69,73,65,72,00,00,\
