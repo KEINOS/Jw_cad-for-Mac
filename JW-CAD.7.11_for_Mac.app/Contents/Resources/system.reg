@@ -27873,8 +27873,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480558185
-#time=1d24b77fcabd702
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480560235
+#time=1d24b7cc246ac54
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -28211,7 +28211,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -32392,15 +32392,15 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Winlogon] 1480557928
 #time=1d24b776311e91a
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1480557928
-#time=1d24b77631e12f8
-"CSDVersion"="Service Pack 3"
-"CurrentBuildNumber"="2600"
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1480560259
+#time=1d24b7cd04e8bc8
+"CSDVersion"=""
+"CurrentBuildNumber"="9600"
 "CurrentType"="Uniprocessor Free"
-"CurrentVersion"="5.1"
+"CurrentVersion"="6.3"
 "InstallDate"=dword:4be5019a
 "ProductId"="12345-oem-0000001-54321"
-"ProductName"="Microsoft Windows XP"
+"ProductName"="Microsoft Windows 8.1"
 "RegisteredOrganization"=""
 "RegisteredOwner"=""
 "SystemRoot"="C:\\windows"
@@ -32425,8 +32425,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1480557928
 #time=1d24b776311f414
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480558185
-#time=1d24b77fcabd694
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480560235
+#time=1d24b7cc246abe6
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -32763,7 +32763,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -34637,9 +34637,9 @@ WINE REGISTRY Version 2
 [System\\CurrentControlSet\\Control\\VMM32Files] 1480557928
 #time=1d24b776312dde8
 
-[System\\CurrentControlSet\\Control\\Windows] 1480557928
-#time=1d24b77631dc65e
-"CSDVersion"=dword:00000300
+[System\\CurrentControlSet\\Control\\Windows] 1480560259
+#time=1d24b7cd04e9316
+"CSDVersion"=dword:00000000
 
 [System\\CurrentControlSet\\Hardware Profiles\\Current\\Software\\Fonts] 1480557928
 #time=1d24b7763125e36
