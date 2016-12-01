@@ -27873,8 +27873,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480560235
-#time=1d24b7cc246ac54
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480560601
+#time=1d24b7d9c33a1ec
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -32425,8 +32425,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1480557928
 #time=1d24b776311f414
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480560235
-#time=1d24b7cc246abe6
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480560601
+#time=1d24b7d9c33a16a
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -34846,4 +34846,3 @@ WINE REGISTRY Version 2
 [System\\Select] 1480557928
 #time=1d24b776312df8c
 "Current"=dword:00000001
-

@@ -697,13 +697,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1480560235
-#time=1d24b7cc242f424
+[Software\\Wine\\Fonts] 1480560601
+#time=1d24b7d9c2f3ac6
 "Codepages"="932,932"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1480560235
-#time=1d24b7cc246accc
+[Software\\Wine\\Fonts\\External Fonts] 1480560601
+#time=1d24b7d9c33a26e
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"

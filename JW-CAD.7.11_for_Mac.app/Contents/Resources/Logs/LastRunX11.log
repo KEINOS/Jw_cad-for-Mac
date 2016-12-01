@@ -122,3 +122,44 @@ Graphics/Displays:
           Automatically Adjust Brightness: Yes
           Built-In: Yes
 
+Engine Used: WS9Wine1.9.21
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro12,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2.7 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP121.0167.B17
+      SMC Version (system): 2.28f7
+
+Graphics/Displays:
+
+    Intel Iris Graphics 6100:
+
+      Chipset Model: Intel Iris Graphics 6100
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel (0x8086)
+      Device ID: 0x162b
+      Revision ID: 0x0009
+      Metal: Supported
+      Displays:
+        Color LCD:
+          Display Type: Retina LCD
+          Resolution: 2560 x 1600 Retina
+          Retina: Yes
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: Yes
+          Built-In: Yes
+
