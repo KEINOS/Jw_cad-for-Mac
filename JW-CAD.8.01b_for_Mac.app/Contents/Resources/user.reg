@@ -169,6 +169,13 @@ WINE REGISTRY Version 2
 #time=1d24b77fcdefca4
 "1"="e0010411"
 
+[Software] 1480568072
+#time=1d24b8f015f1dba
+@=""
+
+[Software\\Jw_cad\\jw_win] 1480568072
+#time=1d24b8f015f2d28
+
 [Software\\Microsoft\\Installer\\Features\\0298D54E857A88046B6C13BD2B6799E2] 1480557917
 #time=1d24b775c8af32a
 "wine_mono"=""
@@ -176,6 +183,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Installer\\Features\\79BDB9BB742C02F47B01B876566F1750] 1480557927
 #time=1d24b7762cc225e
 "wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Features\\931F5F8B1BD1C4E44AA481B9B60AC66C] 1480568072
+#time=1d24b8f016152d8
+"AlwaysInstall"=""
 
 [Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2] 1480557917
 #time=1d24b775c8b0e6e
@@ -231,6 +242,34 @@ WINE REGISTRY Version 2
 #time=1d24b7762cc53dc
 "1"=str(2):"C:\\users\\admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\MIRZGDDE\\"
 
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C] 1480568072
+#time=1d24b8f01619400
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000411
+"PackageCode"="192751FF7ABC1364D9D2C96FA6B7D07F"
+"ProductIcon"="C:\\users\\admin\\Application Data\\Microsoft\\Installer\\{B8F5F139-1DB1-4E4C-A44A-189B6BA06CC6}\\ARPPRODUCTICON.exe"
+"ProductName"="Jw_cad"
+"Version"=dword:08010002
+
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList] 1480568072
+#time=1d24b8f0161b052
+"LastUsedSource"="n;1;C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+"PackageName"="Jw_cad.msi"
+
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Media] 1480568072
+#time=1d24b8f0161b412
+"1"="DISK1;1"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\931F5F8B1BD1C4E44AA481B9B60AC66C\\SourceList\\Net] 1480568072
+#time=1d24b8f0161a3a0
+"1"=str(2):"C:\\users\\admin\\Local Settings\\Application Data\\Downloaded Installations\\{FF157291-CBA7-4631-9D2D-9CF66A7B0DF7}\\"
+
 [Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1480557917
 #time=1d24b775c8b0108
 "0298D54E857A88046B6C13BD2B6799E2"=""
@@ -238,6 +277,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Installer\\UpgradeCodes\\ADF909AA16ED9784E920D37B806499E7] 1480557927
 #time=1d24b7762cc30e6
 "79BDB9BB742C02F47B01B876566F1750"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\B9BEEE819DF5D1B44B8077276C3CE70B] 1480568072
+#time=1d24b8f01617f1a
+"931F5F8B1BD1C4E44AA481B9B60AC66C"=""
 
 [Software\\Microsoft\\Internet Explorer\\Main] 1480557928
 #time=1d24b77630e0796
@@ -258,29 +301,29 @@ WINE REGISTRY Version 2
 #time=1d24b8cb523cd44
 "LastKey"="HKEY_CURRENT_USER\\Software\\Wine\\Drivers"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1480558186
-#time=1d24b77fcccec58
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1480568043
+#time=1d24b8ef04db05e
 "Administrative Tools"="C:\\users\\admin\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\admin\\Application Data"
-"Cache"="C:\\users\\Wineskin\\Local Settings\\Temporary Internet Files"
-"Cookies"="C:\\users\\Wineskin\\Cookies"
+"Cache"="C:\\users\\admin\\Local Settings\\Temporary Internet Files"
+"Cookies"="C:\\users\\admin\\Cookies"
 "Desktop"="C:\\users\\admin\\Desktop"
-"Favorites"="C:\\users\\Wineskin\\Favorites"
+"Favorites"="C:\\users\\admin\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
-"History"="C:\\users\\Wineskin\\Local Settings\\History"
+"History"="C:\\users\\admin\\Local Settings\\History"
 "Local AppData"="C:\\users\\admin\\Local Settings\\Application Data"
 "My Music"="C:\\users\\Wineskin\\My Music"
-"My Pictures"="C:\\users\\Wineskin\\My Pictures"
+"My Pictures"="C:\\users\\admin\\My Pictures"
 "My Videos"="C:\\users\\Wineskin\\My Videos"
-"NetHood"="C:\\users\\Wineskin\\NetHood"
-"Personal"="C:\\users\\Wineskin\\My Documents"
-"PrintHood"="C:\\users\\Wineskin\\PrintHood"
-"Programs"="C:\\users\\Wineskin\\Start Menu\\Programs"
-"Recent"="C:\\users\\Wineskin\\Recent"
-"SendTo"="C:\\users\\Wineskin\\SendTo"
-"Start Menu"="C:\\users\\Wineskin\\Start Menu"
-"StartUp"="C:\\users\\Wineskin\\Start Menu\\Programs\\StartUp"
-"Templates"="C:\\users\\Wineskin\\Templates"
+"NetHood"="C:\\users\\admin\\NetHood"
+"Personal"="C:\\users\\admin\\My Documents"
+"PrintHood"="C:\\users\\admin\\PrintHood"
+"Programs"="C:\\users\\admin\\Start Menu\\Programs"
+"Recent"="C:\\users\\admin\\Recent"
+"SendTo"="C:\\users\\admin\\SendTo"
+"Start Menu"="C:\\users\\admin\\Start Menu"
+"StartUp"="C:\\users\\admin\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\admin\\Templates"
 "{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\admin\\Downloads"
 "{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\admin\\Saved Games"
 "{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\admin\\Contacts"
@@ -626,12 +669,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="FB4C_iexplore.0"
 "ProgID"="jpegfile"
 
-[Software\\Wine\\FileOpenAssociations\\.jww] 1480567023
-#time=1d24b8c904e6236
-"AppName"="A Wine application"
+[Software\\Wine\\FileOpenAssociations\\.jww] 1480568095
+#time=1d24b8f0f4608a8
+"AppName"="JW_WIN MFC \xff71\xff8c\xff9f\xff98\xff79\xff70\xff7c\xff6e\xff9d"
 "DesktopFile"="/Users/admin/.local/share/applications/wine-extension-jww.desktop"
 "MimeType"="application/x-wine-extension-jww"
-"ProgID"="jwwfile"
+"OpenWithIcon"="F8BC_Jw_win.0"
+"ProgID"="Jwwin.Document"
 
 [Software\\Wine\\FileOpenAssociations\\.msp] 1480557937
 #time=1d24b776884b94a
@@ -704,13 +748,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1480567066
-#time=1d24b8ca9cb1704
+[Software\\Wine\\Fonts] 1480568094
+#time=1d24b8f0ed53e52
 "Codepages"="932,932"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1480567066
-#time=1d24b8ca9ced1f0
+[Software\\Wine\\Fonts\\External Fonts] 1480568094
+#time=1d24b8f0ed94218
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -1052,7 +1096,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.8.01b_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -1280,5 +1324,13 @@ WINE REGISTRY Version 2
 #time=1d24b776866cb06
 "CaptureDisplaysForFullscreen"="y"
 
-[Software\\Wine\\MenuFiles] 1480557937
-#time=1d24b776896a9fc
+[Software\\Wine\\MenuFiles] 1480568073
+#time=1d24b8f023b7c7e
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-jw_cad.menu"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/jw_cad.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-Uninstall.menu"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/Uninstall.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.menu"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.lnk"
+"/Users/admin/.config/menus/applications-merged/wine-Programs-Jw_cad-\x30d8\x30eb\x30d7.menu"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x30d8\x30eb\x30d7.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/jw_cad.desktop"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/jw_cad.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/Uninstall.desktop"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/Uninstall.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.desktop"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x304a\x8aad\x307f\x304f\x3060\x3055\x3044.lnk"
+"/Users/admin/.local/share/applications/wine/Programs/Jw_cad/\x30d8\x30eb\x30d7.desktop"="/Volumes/Macintosh SD/Git/GitHub/Jw_cad-for-Mac/JW-CAD.8.01b_for_Mac.app/Contents/Resources/dosdevices/c:/users/admin/Start Menu/Programs/Jw_cad/\x30d8\x30eb\x30d7.lnk"
