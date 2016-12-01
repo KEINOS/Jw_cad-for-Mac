@@ -258,8 +258,8 @@ WINE REGISTRY Version 2
 #time=1d24b8cb523cd44
 "LastKey"="HKEY_CURRENT_USER\\Software\\Wine\\Drivers"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1480558186
-#time=1d24b77fcccec58
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1480567948
+#time=1d24b8eb7c04cec
 "Administrative Tools"="C:\\users\\admin\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\admin\\Application Data"
 "Cache"="C:\\users\\Wineskin\\Local Settings\\Temporary Internet Files"
@@ -269,11 +269,11 @@ WINE REGISTRY Version 2
 "Fonts"="C:\\windows\\Fonts"
 "History"="C:\\users\\Wineskin\\Local Settings\\History"
 "Local AppData"="C:\\users\\admin\\Local Settings\\Application Data"
-"My Music"="C:\\users\\Wineskin\\My Music"
-"My Pictures"="C:\\users\\Wineskin\\My Pictures"
-"My Videos"="C:\\users\\Wineskin\\My Videos"
+"My Music"="C:\\users\\admin\\My Music"
+"My Pictures"="C:\\users\\admin\\My Pictures"
+"My Videos"="C:\\users\\admin\\My Videos"
 "NetHood"="C:\\users\\Wineskin\\NetHood"
-"Personal"="C:\\users\\Wineskin\\My Documents"
+"Personal"="C:\\users\\admin\\My Documents"
 "PrintHood"="C:\\users\\Wineskin\\PrintHood"
 "Programs"="C:\\users\\Wineskin\\Start Menu\\Programs"
 "Recent"="C:\\users\\Wineskin\\Recent"
@@ -565,10 +565,18 @@ WINE REGISTRY Version 2
 [Software\\Wine\\Direct3D] 1480557937
 #time=1d24b776866c2aa
 
-[Software\\Wine\\Drivers] 1480558201
-#time=1d24b780615dcac
+[Software\\Wine\\Drivers] 1480567953
+#time=1d24b8ebac94bd2
 "Audio"="coreaudio"
 "Graphics"="mac"
+
+[Software\\Wine\\Drivers\\winecoreaudio.drv\\devices\\0,46] 1480567953
+#time=1d24b8ebac94dee
+"guid"=hex:23,36,3b,96,c3,d2,a6,48,87,fe,80,78,89,26,13,94
+
+[Software\\Wine\\Drivers\\winecoreaudio.drv\\devices\\1,39] 1480567953
+#time=1d24b8ebace85fc
+"guid"=hex:e1,6e,b5,03,2e,52,70,4d,9a,d3,61,12,fc,58,82,04
 
 [Software\\Wine\\FileOpenAssociations\\.chm] 1480557937
 #time=1d24b776867542c
@@ -704,13 +712,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="7765_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1480567066
-#time=1d24b8ca9cb1704
+[Software\\Wine\\Fonts] 1480567911
+#time=1d24b8ea1d33804
 "Codepages"="932,932"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1480567066
-#time=1d24b8ca9ced1f0
+[Software\\Wine\\Fonts\\External Fonts] 1480567911
+#time=1d24b8ea1d6f4bc
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"

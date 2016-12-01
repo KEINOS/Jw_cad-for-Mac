@@ -27092,8 +27092,8 @@ WINE REGISTRY Version 2
 #time=1d24b776312cce0
 "Installation Directory"="C:\\windows\\system32\\wbem"
 
-[Software\\Microsoft\\Windows\\CurrentVersion] 1480557928
-#time=1d24b77632a320e
+[Software\\Microsoft\\Windows\\CurrentVersion] 1480567953
+#time=1d24b8ebac68ed8
 "CommonFilesDir"="C:\\Program Files\\Common Files"
 "FirstInstallDateTime"=hex:21,81,7c,23
 "ProductId"="12345-oem-0000001-54321"
@@ -27881,8 +27881,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480567066
-#time=1d24b8ca9ced114
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480567911
+#time=1d24b8ea1d6f444
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -30372,6 +30372,42 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{03B56EE1-522E-4D70-9AD3-6112FC588204}] 1480567953
+#time=1d24b8ebace8b2e
+"DeviceState"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{03B56EE1-522E-4D70-9AD3-6112FC588204}\\Properties] 1480567953
+#time=1d24b8ebacee164
+"{026E516E-B814-414B-83CD-856D6FEF4822},2"="\x5185\x8535\x30de\x30a4\x30af"
+"{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"=dword:00000004
+"{233164C8-1B2C-4C7D-BC68-B671687A2567},1"="{03B56EE1-522E-4D70-9AD3-6112FC588204}"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},14"="\x5185\x8535\x30de\x30a4\x30af"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},2"="\x5185\x8535\x30de\x30a4\x30af"
+"{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+"{F19F064D-082C-4E27-BC73-6882A1BB8E4C},0"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{963B3623-D2C3-48A6-87FE-807889261394}] 1480567953
+#time=1d24b8ebac95032
+"DeviceState"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{963B3623-D2C3-48A6-87FE-807889261394}\\Properties] 1480567953
+#time=1d24b8ebace74ea
+"{026E516E-B814-414B-83CD-856D6FEF4822},2"="\x5185\x8535\x51fa\x529b"
+"{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"=dword:00000001
+"{233164C8-1B2C-4C7D-BC68-B671687A2567},1"="{963B3623-D2C3-48A6-87FE-807889261394}"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},14"="\x5185\x8535\x51fa\x529b"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},2"="\x5185\x8535\x51fa\x529b"
+"{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+"{F19F064D-082C-4E27-BC73-6882A1BB8E4C},0"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System] 1480557928
 #time=1d24b776311dcfe
 "EnableLUA"=dword:00000000
@@ -32446,8 +32482,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1480557928
 #time=1d24b776311f414
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480567066
-#time=1d24b8ca9ced042
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480567911
+#time=1d24b8ea1d6f3d6
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"

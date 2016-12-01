@@ -1,3 +1,4 @@
 err:display:macdrv_ChangeDisplaySettingsEx No matching mode found 1680x1050x32 @60!
-winedevice.exe(12569,0xba927000) malloc: *** error for object 0xe8680003: pointer being freed was not allocated
+fixme:ntdll:server_ioctl_file Unsupported ioctl 24000 (device=2 access=1 func=0 method=0)
+winedevice.exe(13401,0xba927000) malloc: *** error for object 0xe8680003: pointer being freed was not allocated
 *** set a breakpoint in malloc_error_break to debug
