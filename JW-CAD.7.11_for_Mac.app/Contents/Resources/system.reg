@@ -119,6 +119,10 @@ WINE REGISTRY Version 2
 #time=1d24b775658d17a
 @="JSFile"
 
+[Software\\Classes\\.jww] 1240428288
+#time=1c9c38000000000
+@="jwwfile"
+
 [Software\\Classes\\.lnk] 1480557928
 #time=1d24b77630f3a30
 @="lnkfile"
@@ -21874,6 +21878,10 @@ WINE REGISTRY Version 2
 #time=1d24b775645b586
 @="JScript"
 
+[Software\\Classes\\jwwfile\\shell\\open\\command] 1240428288
+#time=1c9c38000000000
+@="C:nothing.exe \"%1\""
+
 [Software\\Classes\\LiveScript] 1480557906
 #time=1d24b7756459d3a
 @="JScript Language"
@@ -27873,8 +27881,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480558185
-#time=1d24b77fcabd702
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1480567066
+#time=1d24b8ca9ced114
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -27936,6 +27944,12 @@ WINE REGISTRY Version 2
 "@Xingkai SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "@Xingkai SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "@Xingkai TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
+"@Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
 "@Yuppy SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\31446e511030d504d82943f715bb763066d52fdd.asset\\AssetData\\YuppySC-Regular.otf"
 "@Yuppy TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\456f218aaaff310805fa4003038e593c9db93d8b.asset\\AssetData\\YuppyTC-Regular.otf"
 "@\x30af\x30ec\x30fc \x30c7\x30df\x30dc\x30fc\x30eb\x30c9 (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\56fbb4c7efe470c6f9788fba733e5ec07d97be83.asset\\AssetData\\Klee.ttc"
@@ -28211,7 +28225,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -28363,6 +28377,7 @@ WINE REGISTRY Version 2
 "Tamil MN Bold (TrueType)"="Z:\\Library\\Fonts\\Tamil MN.ttc"
 "Tamil Sangam MN (TrueType)"="Z:\\Library\\Fonts\\Tamil Sangam MN.ttc"
 "Tamil Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Tamil Sangam MN.ttc"
+"TeamViewer12 (TrueType)"="Z:\\Library\\Fonts\\TeamViewer12.otf"
 "Telugu MN (TrueType)"="Z:\\Library\\Fonts\\Telugu MN.ttc"
 "Telugu MN Bold (TrueType)"="Z:\\Library\\Fonts\\Telugu MN.ttc"
 "Telugu Sangam MN (TrueType)"="Z:\\Library\\Fonts\\Telugu Sangam MN.ttc"
@@ -28396,6 +28411,12 @@ WINE REGISTRY Version 2
 "Xingkai SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "Xingkai SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "Xingkai TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
+"Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
 "Yuppy SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\31446e511030d504d82943f715bb763066d52fdd.asset\\AssetData\\YuppySC-Regular.otf"
 "Yuppy TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\456f218aaaff310805fa4003038e593c9db93d8b.asset\\AssetData\\YuppyTC-Regular.otf"
 "Zapf Dingbats (TrueType)"="Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
@@ -32392,15 +32413,15 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Winlogon] 1480557928
 #time=1d24b776311e91a
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1480557928
-#time=1d24b77631e12f8
-"CSDVersion"="Service Pack 3"
-"CurrentBuildNumber"="2600"
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1480567032
+#time=1d24b8c95ae1500
+"CSDVersion"=""
+"CurrentBuildNumber"="9600"
 "CurrentType"="Uniprocessor Free"
-"CurrentVersion"="5.1"
+"CurrentVersion"="6.3"
 "InstallDate"=dword:4be5019a
 "ProductId"="12345-oem-0000001-54321"
-"ProductName"="Microsoft Windows XP"
+"ProductName"="Microsoft Windows 8.1"
 "RegisteredOrganization"=""
 "RegisteredOwner"=""
 "SystemRoot"="C:\\windows"
@@ -32425,8 +32446,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1480557928
 #time=1d24b776311f414
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480558185
-#time=1d24b77fcabd694
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1480567066
+#time=1d24b8ca9ced042
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "@Baoli SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\3abf40766b4cf50b77ebd28e6affbd1849ea61c6.asset\\AssetData\\Baoli.ttc"
@@ -32488,6 +32509,12 @@ WINE REGISTRY Version 2
 "@Xingkai SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "@Xingkai SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "@Xingkai TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
+"@Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"@Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
 "@Yuppy SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\31446e511030d504d82943f715bb763066d52fdd.asset\\AssetData\\YuppySC-Regular.otf"
 "@Yuppy TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\456f218aaaff310805fa4003038e593c9db93d8b.asset\\AssetData\\YuppyTC-Regular.otf"
 "@\x30af\x30ec\x30fc \x30c7\x30df\x30dc\x30fc\x30eb\x30c9 (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\56fbb4c7efe470c6f9788fba733e5ec07d97be83.asset\\AssetData\\Klee.ttc"
@@ -32763,7 +32790,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\admin\\Applications\\Wineskin\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="E:\\Git\\GitHub\\Jw_cad-for-Mac\\JW-CAD.7.11_for_Mac.app\\Contents\\Frameworks\\wswine.bundle\\lib\\..\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -32915,6 +32942,7 @@ WINE REGISTRY Version 2
 "Tamil MN Bold (TrueType)"="Z:\\Library\\Fonts\\Tamil MN.ttc"
 "Tamil Sangam MN (TrueType)"="Z:\\Library\\Fonts\\Tamil Sangam MN.ttc"
 "Tamil Sangam MN Bold (TrueType)"="Z:\\Library\\Fonts\\Tamil Sangam MN.ttc"
+"TeamViewer12 (TrueType)"="Z:\\Library\\Fonts\\TeamViewer12.otf"
 "Telugu MN (TrueType)"="Z:\\Library\\Fonts\\Telugu MN.ttc"
 "Telugu MN Bold (TrueType)"="Z:\\Library\\Fonts\\Telugu MN.ttc"
 "Telugu Sangam MN (TrueType)"="Z:\\Library\\Fonts\\Telugu Sangam MN.ttc"
@@ -32948,6 +32976,12 @@ WINE REGISTRY Version 2
 "Xingkai SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "Xingkai SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
 "Xingkai TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\0d72c02a426a7f3d6eaf3b41585acc6a9c9f3c83.asset\\AssetData\\Xingkai.ttc"
+"Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti SC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Light (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
+"Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\fa07164041b3d7c7e393737ff873fc22e5f96f53.asset\\AssetData\\Yuanti.ttc"
 "Yuppy SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\31446e511030d504d82943f715bb763066d52fdd.asset\\AssetData\\YuppySC-Regular.otf"
 "Yuppy TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font3\\456f218aaaff310805fa4003038e593c9db93d8b.asset\\AssetData\\YuppyTC-Regular.otf"
 "Zapf Dingbats (TrueType)"="Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
@@ -34173,10 +34207,11 @@ WINE REGISTRY Version 2
 [Software\\Registered Applications] 1480557928
 #time=1d24b776312ce98
 
-[Software\\Wine\\Drives] 1480557928
-#time=1d24b7763391094
+[Software\\Wine\\Drives] 1480567021
+#time=1d24b8c8f484438
 "d:"="floppy"
 "e:"="floppy"
+"f:"="floppy"
 
 [Software\\Wine\\LicenseInformation] 1480557928
 #time=1d24b77631dd6c6
@@ -34637,9 +34672,9 @@ WINE REGISTRY Version 2
 [System\\CurrentControlSet\\Control\\VMM32Files] 1480557928
 #time=1d24b776312dde8
 
-[System\\CurrentControlSet\\Control\\Windows] 1480557928
-#time=1d24b77631dc65e
-"CSDVersion"=dword:00000300
+[System\\CurrentControlSet\\Control\\Windows] 1480567032
+#time=1d24b8c95ae1afa
+"CSDVersion"=dword:00000000
 
 [System\\CurrentControlSet\\Hardware Profiles\\Current\\Software\\Fonts] 1480557928
 #time=1d24b7763125e36
