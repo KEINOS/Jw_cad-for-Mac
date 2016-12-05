@@ -14,7 +14,7 @@ ook氏のご好意により、**"JW-CAD for Mac"のキャラクター**として
 
 現在、ook氏は脳溢血で倒れ昏睡状態が続いてます。キャラ提供の感謝と共に、ご回復を強くお祈りしています。
 
-2016.12.05 KEINOS & JW-CAD for Mac Project
+2016.12.05 [KEINOS](https://blog.keinos.com/) & [JW-CAD for Mac Project](https://keinos.github.io/Jw_cad-for-Mac/)
 
 
 
