@@ -1,5 +1,5 @@
 #オフィシャル・キャラクター「DJ犬ジョー」
-![オフィシャル・キャラクター](./DJ_Dog Joe-800x800.png "DJ犬ジョー")
+![オフィシャル・キャラクター](https://raw.githubusercontent.com/KEINOS/Jw_cad-for-Mac/master/Resources/logo/DJ%20Doc%20Joe.png "DJ犬ジョー")
 
 
 ## ロゴ・キャラクターについて
