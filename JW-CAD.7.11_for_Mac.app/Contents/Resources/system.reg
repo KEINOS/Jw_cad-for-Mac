@@ -34917,3 +34917,73 @@ WINE REGISTRY Version 2
 [System\\Select] 1480557928
 #time=1d24b776312df8c
 "Current"=dword:00000001
+
+[Software\\Classes\\.jws]
+@="jwsfile"
+
+[Software\\Classes\\jwsfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.sfc]
+@="sfcfile"
+
+[Software\\Classes\\sfcfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.dxf]
+@="dxffile"
+
+[Software\\Classes\\dxffile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.jwc]
+@="jwcfile"
+
+[Software\\Classes\\jwcfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.jwk]
+@="jwkfile"
+
+[Software\\Classes\\jwkfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.dat]
+@="datfile"
+
+[Software\\Classes\\datfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.spd]
+@="spdfile"
+
+[Software\\Classes\\spdfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.jw$]
+@="jw$file"
+
+[Software\\Classes\\jw$file\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.bak]
+@="bakfile"
+
+[Software\\Classes\\bakfile\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
+
+[Software\\Classes\\.p21]
+@="p21file"
+
+[Software\\Classes\\p21file\\shell\\open\\command]
+@="C:\\jww\\Jw_win.exe \"%1\""
+
