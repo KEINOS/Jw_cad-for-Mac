@@ -10,7 +10,7 @@ Windows互換のために、フォルダ名／ファイル名／変数名など�
 
 
 # オフィシャル・キャラクター「DJ犬ジョー」
-![オフィシャル・キャラクター](https://raw.githubusercontent.com/KEINOS/Jw_cad-for-Mac/master/Resources/logo/DJ%20Doc%20Joe.png "DJ犬ジョー")
+![オフィシャル・キャラクター](https://raw.githubusercontent.com/KEINOS/Jw_cad-for-Mac/master/Resources/logo/DJ%20Dog%20Joe.png "DJ犬ジョー")
 
 
 ## ロゴ・キャラクターについて
