@@ -1,10 +1,10 @@
-#正式名称
+# 正式名称
 Mac版のアプリの正式名称は「JW-CAD for Mac」です。「Jwcad for mac」や「Jw_cad for Mac」といった記載をしないでください。
 
 また、本家（Windows版）は「Jw_cad」と記載するルールにしています。しかし「Jww」「Jw_win」など、名称が統一されていないため検索対象用に記載したい場合は、「JW_cad（Jww,Jw_win）」といった記載をしてください。
 
 
-#オフィシャル・キャラクター「DJ犬ジョー」
+# オフィシャル・キャラクター「DJ犬ジョー」
 ![オフィシャル・キャラクター](https://raw.githubusercontent.com/KEINOS/Jw_cad-for-Mac/master/Resources/logo/DJ%20Doc%20Joe.png "DJ犬ジョー")
 
 
