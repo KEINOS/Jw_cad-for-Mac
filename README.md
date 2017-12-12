@@ -6,7 +6,7 @@ Wineを利用したMacで動作する「Jw_cad」 (Jww, Jw_win) です。対応O
 
 ## 公式サイト
 
-https://keinos.github.io/Jw_cad-for-Mac/
+https://jwcad.keinos.com/
 
 ## アプリの正式名称
 
