@@ -1,3 +1,0 @@
-err:display:macdrv_ChangeDisplaySettingsEx No matching mode found 1680x1050x32 @60!
-winedevice.exe(27499,0xba927000) malloc: *** error for object 0x79be8dff: pointer being freed was not allocated
-*** set a breakpoint in malloc_error_break to debug
